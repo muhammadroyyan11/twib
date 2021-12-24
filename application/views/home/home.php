@@ -73,7 +73,7 @@
 			<div class="col-lg-4 col-sm-6">
 				<div class="feature_item">
 					<div class="f_icon">
-						<img src="img/icon/f-icon-1.png" alt="">
+						<img src="<?= base_url() ?>assets/img/icon/f-icon-1.png" alt="">
 					</div>
 					<h4>Brand Identity</h4>
 					<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. </p>
@@ -83,7 +83,7 @@
 			<div class="col-lg-4 col-sm-6">
 				<div class="feature_item">
 					<div class="f_icon">
-						<img src="img/icon/f-icon-2.png" alt="">
+						<img src="<?= base_url() ?>assets/img/icon/f-icon-2.png" alt="">
 					</div>
 					<h4>Online Marketing</h4>
 					<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. </p>
@@ -93,7 +93,7 @@
 			<div class="col-lg-4 col-sm-6">
 				<div class="feature_item">
 					<div class="f_icon">
-						<img src="img/icon/f-icon-3.png" alt="">
+						<img src="<?= base_url() ?>assets/img/icon/f-icon-3.png" alt="">
 					</div>
 					<h4>Social Media</h4>
 					<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. </p>
@@ -113,7 +113,7 @@
 				<h4>“They are the best”</h4>
 				<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus.</p>
 				<div class="media">
-					<img src="img/team/people/people-5.jpg" alt="">
+					<img src="<?= base_url() ?>assets/img/team/people/people-5.jpg" alt="">
 					<div class="media-body">
 						<h5>Chriss Turner</h5>
 						<h6>CEO Enterprise</h6>
@@ -124,7 +124,7 @@
 				<h4>“They are the best”</h4>
 				<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus.</p>
 				<div class="media">
-					<img src="img/team/people/people-5.jpg" alt="">
+					<img src="<?= base_url() ?>assets/img/team/people/people-5.jpg" alt="">
 					<div class="media-body">
 						<h5>Chriss Turner</h5>
 						<h6>CEO Enterprise</h6>
@@ -135,7 +135,7 @@
 				<h4>“They are the best”</h4>
 				<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus.</p>
 				<div class="media">
-					<img src="img/team/people/people-5.jpg" alt="">
+					<img src="<?= base_url() ?>assets/img/team/people/people-5.jpg" alt="">
 					<div class="media-body">
 						<h5>Chriss Turner</h5>
 						<h6>CEO Enterprise</h6>
@@ -148,14 +148,14 @@
 		<div class="right_text_inner">
 			<div class="text_3d">
 				<div class="l_title">
-					<img src="img/icon/title-icon.png" alt="">
+					<img src="<?= base_url() ?>assets/img/icon/title-icon.png" alt="">
 					<h6>Discover the features</h6>
 					<h2>We don’t hide, we stand tall in front of chalenge</h2>
 				</div>
 				<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul.Cras ex mauris, ornare eget pretium sit amet, dignissim et turpis. Nunc nec maximus dui, vel suscipit dolor. Donec elementum velit a orci facilisis rutrum. Nam convallis vel erat id dictum. Sed ut risus in orci convallis viverra a eget nisi. Aenean pellentesque elit vitae eros dignissim ultrices. </p>
 			</div>
 			<div class="shap_mobile">
-				<img src="img/iphone4.png" alt="">
+				<img src="<?= base_url() ?>assets/img/iphone4.png" alt="">
 			</div>
 		</div>
 	</div>
@@ -169,7 +169,7 @@
 			<div class="col-lg-6">
 				<div class="team_people_text">
 					<div class="l_title">
-						<img src="img/icon/title-icon.png" alt="">
+						<img src="<?= base_url() ?>assets/img/icon/title-icon.png" alt="">
 						<h6>Discover the features</h6>
 						<h2>We build a strong team of great people</h2>
 					</div>
@@ -188,22 +188,22 @@
 					<div class="row">
 						<div class="col-lg-6 col-6">
 							<div class="team_img_item">
-								<img src="img/team/people/people-1.jpg" alt="">
+								<img src="<?= base_url() ?>assets/img/team/people/people-1.jpg" alt="">
 							</div>
 						</div>
 						<div class="col-lg-6 col-6">
 							<div class="team_img_item">
-								<img src="img/team/people/people-2.jpg" alt="">
+								<img src="<?= base_url() ?>assets/img/team/people/people-2.jpg" alt="">
 							</div>
 						</div>
 						<div class="col-lg-6 col-6">
 							<div class="team_img_item">
-								<img src="img/team/people/people-3.jpg" alt="">
+								<img src="<?= base_url() ?>assets/img/team/people/people-3.jpg" alt="">
 							</div>
 						</div>
 						<div class="col-lg-6 col-6">
 							<div class="team_img_item">
-								<img src="img/team/people/people-4.jpg" alt="">
+								<img src="<?= base_url() ?>assets/img/team/people/people-4.jpg" alt="">
 							</div>
 						</div>
 					</div>
@@ -240,7 +240,7 @@
 			<div class="col-lg-6">
 				<div class="touch_details">
 					<div class="l_title">
-						<img src="img/icon/title-icon.png" alt="">
+						<img src="<?= base_url() ?>assets/img/icon/title-icon.png" alt="">
 						<h6>Say hello</h6>
 						<h2>Get in touch, send us an e-mail or call us</h2>
 					</div>
@@ -262,7 +262,7 @@
 <section class="world_map_area p_100">
 	<div class="container">
 		<div class="world_map_inner">
-			<img class="img-fluid" src="img/world-map.png" alt="">
+			<img class="img-fluid" src="<?= base_url() ?>assets/img/world-map.png" alt="">
 			<div class="bd-callout">
 				<h3>Gibraltar Office</h3>
 				<p>Casemates Square, no253 <br /> United kingdom</p>

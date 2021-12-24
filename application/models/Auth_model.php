@@ -10,14 +10,20 @@ class Auth_model extends CI_Model
 		return $query->num_rows();
 	}
 
-	public function get_password($username)
+	public function cek_email($email)
 	{
-		$data = $this->db->get_where('user', ['username' => $username])->row_array();
-		return $data['password'];
+		$query = $this->db->get_where('user', ['email' => $email]);
+		return $query->num_rows();
 	}
 
-	public function userdata($username)
+	public function get_password($email)
 	{
-		return $this->db->get_where('user', ['username' => $username])->row_array();
+		$data = $this->db->get_where('user', ['email' => $email])->row_array();
+		return $data['password'];
+	} 
+
+	public function userdata($email)
+	{
+		return $this->db->get_where('user', ['email' => $email])->row_array();
 	}
 }
