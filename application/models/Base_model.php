@@ -2,7 +2,7 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 
 class Base_model extends CI_Model
-{
+{ 
 
 	public function getUser($table, $data = null, $where = null)
 	{

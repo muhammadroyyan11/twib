@@ -24,7 +24,9 @@
 	<link href="<?= base_url() ?>assets/vendors/owl-carousel/owl.carousel.min.css" rel="stylesheet">
 
 	<link href="<?= base_url() ?>assets/css/style.css" rel="stylesheet">
+	<link href="<?= base_url() ?>assets/css/card.css" rel="stylesheet">
 	<link href="<?= base_url() ?>assets/css/responsive.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
 
 </head>
 
@@ -42,10 +44,10 @@
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav">
-					<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-					<li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
-					<li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
-					<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+					<li class="nav-item active"><a class="nav-link" href="<?= site_url('home')?>">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="<?= site_url('home')?>">Fitur</a></li>
+					<li class="nav-item"><a class="nav-link" href="<?= site_url('home')?>">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="<?= site_url('home')?>">Marketplace</a></li>
 					<li class="nav-item dropdown submenu">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Blog
@@ -60,7 +62,7 @@
 					<!-- LOGIN MUNCUL JIKA BELUM LOGIN -->
 					<?php
 					if ($this->session->has_userdata('login_session')) : ?>
-						<li class="nav-item"><a class="nav-link" href="<?= site_url('auth') ?>">Account</a></li>
+						<li class="nav-item"><a class="nav-link" href="<?= site_url('profile') ?>">Account</a></li>
 					<?php else : ?>
 						<li class="nav-item"><a class="nav-link" href="<?= site_url('auth') ?>">Login</a></li>
 					<?php endif; ?>
@@ -127,6 +129,8 @@
 	<script src="<?= base_url() ?>assets/js/smoothscroll.js"></script>
 
 	<script src="<?= base_url() ?>assets/js/theme.js"></script>
+	<script src="<?= base_url() ?>assets/js/card.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 </body>
 
 </html>

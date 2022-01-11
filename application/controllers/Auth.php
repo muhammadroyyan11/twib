@@ -5,7 +5,7 @@ class Auth extends CI_Controller
 {
 
 	/**
-	 * Index Page for this controller.
+	 * Index Page for this Authcontroller.
 	 *
 	 * Author : Muhammad Royyan Zamzami
 	 * Github : muhammadroyyan11
@@ -61,9 +61,4 @@ class Auth extends CI_Controller
 		}
 	}
 
-	// public function index2()
-	// {
-	// 	$this->template->load('template/authTemp', 'auth/login');
-	//     // $this->load->view('template/authTemp');
-	// }
 }
