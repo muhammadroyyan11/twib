@@ -20,8 +20,12 @@
                             <h3><i class="fa fa-cog" aria-hidden="true"></i> Pengaturan Akun</h3>
                         </div>
                         <ul>
-                            <li><ahref="index.html">Profile</a></li>
-                            <li><ahref="about-us.html">Privasi & Keamanan</a></li>
+                            <li>
+                                <a data-toggle="collapse" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">Profile</a>
+                            </li>
+                            <li>
+                                <a data-toggle="collapse" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Privasi & Keamanan</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -32,7 +36,7 @@
                         <div class="card-header" role="tab" id="headingOne">
                             <h5 class="mb-0">
                                 <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Cras ex mauris, ornare eget pretium sit amet, dignissim et turpis
+                                    Campaign Saya
                                     <i class="minus">-</i>
                                     <i class="plus">+</i>
                                 </a>
@@ -41,7 +45,7 @@
 
                         <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
                             <div class="card-body">
-                                <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. </p>
+                                <p>Ini ccollapse</p>
                             </div>
                         </div>
                     </div>
@@ -49,7 +53,7 @@
                         <div class="card-header" role="tab" id="headingTwo">
                             <h5 class="mb-0">
                                 <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Sed dapibus nunc vulputate mi fringilla, eu consequat
+                                    Profile
                                     <i class="minus">-</i>
                                     <i class="plus">+</i>
                                 </a>
@@ -57,7 +61,7 @@
                         </div>
                         <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
                             <div class="card-body">
-                                <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. </p>
+                                <p>Ini profile</p>
                             </div>
                         </div>
                     </div>
@@ -65,7 +69,7 @@
                         <div class="card-header" role="tab" id="headingThree">
                             <h5 class="mb-0">
                                 <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Curabitur eu libero sed erat viverra gravida at id ex
+                                    Privasi & Keamanan
                                     <i class="minus">-</i>
                                     <i class="plus">+</i>
                                 </a>
@@ -73,7 +77,7 @@
                         </div>
                         <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
                             <div class="card-body">
-                                <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. </p>
+                                <p>Ini Privasi & Keamanan</p>
                             </div>
                         </div>
                     </div>

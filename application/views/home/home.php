@@ -69,7 +69,7 @@
 			<div class="col-md-8 col-sm-12 pl-20">
 				<h4 class="section-desc mb-1"> ✨ Terbaru </h4>
 				<p class="explore__subtitle m-0 p-0">Campaign paling populer yang pernah ada di Twibbonize.</p>
-			</div><a href="/explore?sort=supports" class="d-flex align-items-center mt-2 pl-20" style="font-size: 1rem; color: rgb(20, 35, 75);"> Lihat Semua <ion-icon name="chevron-forward" role="img" class="md hydrated" aria-label="chevron forward" style="font-size: 32px;"></ion-icon></a>
+			</div><a href="<?= site_url('jelajah')?>" class="d-flex align-items-center mt-2 pl-20" style="font-size: 1rem; color: rgb(20, 35, 75);"> Lihat Semua <ion-icon name="chevron-forward" role="img" class="md hydrated" aria-label="chevron forward" style="font-size: 32px;"></ion-icon></a>
 		</div><br>
 		<div class="row">
 			<div class="col-lg-4 col-md-6">

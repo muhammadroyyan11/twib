@@ -45,19 +45,9 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav">
 					<li class="nav-item active"><a class="nav-link" href="<?= site_url('home')?>">Home</a></li>
-					<li class="nav-item"><a class="nav-link" href="<?= site_url('home')?>">Fitur</a></li>
+					<li class="nav-item"><a class="nav-link" href="<?= site_url('jelajah')?>">Jelahi</a></li>
 					<li class="nav-item"><a class="nav-link" href="<?= site_url('home')?>">About</a></li>
-					<li class="nav-item"><a class="nav-link" href="<?= site_url('home')?>">Marketplace</a></li>
-					<li class="nav-item dropdown submenu">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Blog
-						</a>
-						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-							<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-							<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
-						</ul>
-					</li>
+					<!-- <li class="nav-item"><a class="nav-link" href="<?= site_url('home')?>">Marketplace</a></li> -->
 					
 					<!-- LOGIN MUNCUL JIKA BELUM LOGIN -->
 					<?php
