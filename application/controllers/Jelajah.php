@@ -11,8 +11,8 @@ class Jelajah extends CI_Controller {
 	 */
 	public function index()
 	{
-        $data['tittle'] = 'Jelajahi';
+        $data['tittle'] = 'Cari Twibbon';
 		// var_dump(userdata('id_user'));
-        $this->template->load('template/userTemp', 'jelajahi/jelajahi');
+        $this->template->load('template/userTemp', 'jelajahi/jelajahi', $data);
 	}
 }

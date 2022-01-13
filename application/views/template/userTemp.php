@@ -8,7 +8,7 @@
 
 	<link rel="icon" href="<?= base_url() ?>assets/img	/fav-icon.png" type="image/x-icon" />
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<title>Sierra</title>
+	<title>Twibbon | <?= $tittle ?></title>
 
 	<!-- Icon css link -->
 	<link href="<?= base_url() ?>assets/css/font-awesome.min.css" rel="stylesheet">

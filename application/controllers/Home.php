@@ -13,6 +13,6 @@ class Home extends CI_Controller {
 	{
         $data['tittle'] = 'Home';
 		// var_dump(userdata('id_user'));
-        $this->template->load('template/userTemp', 'home/home');
+        $this->template->load('template/userTemp', 'home/home', $data);
 	}
 }

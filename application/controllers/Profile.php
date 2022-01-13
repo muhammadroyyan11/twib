@@ -13,6 +13,6 @@ class Profile extends CI_Controller {
 	{
         $data['tittle'] = 'Profile';
 		// var_dump(userdata('id_user'));
-        $this->template->load('template/userTemp', 'setting/profile');
+        $this->template->load('template/userTemp', 'setting/profile', $data);
 	}
 }
