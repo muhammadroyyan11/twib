@@ -16,11 +16,17 @@ class Auth_model extends CI_Model
 		return $query->num_rows();
 	}
 
+	public function cek_role()
+	{
+		$query = $this->db->get_where('user', ['role' => 'admin']);
+		return $query->num_rows();
+	}
+
 	public function get_password($email)
 	{
 		$data = $this->db->get_where('user', ['email' => $email])->row_array();
 		return $data['password'];
-	} 
+	}
 
 	public function userdata($email)
 	{

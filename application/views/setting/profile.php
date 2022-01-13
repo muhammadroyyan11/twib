@@ -2,7 +2,7 @@
 <section class="banner_area">
     <div class="container">
         <div class="banner_inner_text">
-            <h3>Hai, Muhammad Royyan!</h3>
+            <h3>Hai, <?= userdata('nama')?></h3>
             <p>Buat atau atur campaign, dan ubah pengaturan akun Anda.</p>
         </div>
     </div>
@@ -17,9 +17,16 @@
                 <div class="company_skill">
                     <div class="our_skill_inner">
                         <div class="single_skill">
-                            <h3><i class="fa fa-cog" aria-hidden="true"></i> Pengaturan Akun</h3>
                         </div>
                         <ul>
+                            <li>
+                                <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <button type="button" class="btn btn-primary">+ Campaign</button>
+                                </a>
+                            </li><br>
+                            <li>
+                                <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Campaign</a>
+                            </li>
                             <li>
                                 <a data-toggle="collapse" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">Profile</a>
                             </li>
@@ -32,23 +39,7 @@
             </div>
             <div class="col-lg-6">
                 <div id="accordion" role="tablist" class="solution_collaps">
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingOne">
-                            <h5 class="mb-0">
-                                <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Campaign Saya
-                                    <i class="minus">-</i>
-                                    <i class="plus">+</i>
-                                </a>
-                            </h5>
-                        </div>
-
-                        <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
-                            <div class="card-body">
-                                <p>Ini ccollapse</p>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <div class="card">
                         <div class="card-header" role="tab" id="headingTwo">
                             <h5 class="mb-0">
