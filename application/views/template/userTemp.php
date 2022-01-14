@@ -29,56 +29,32 @@
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="<?= base_url() ?>assets/twibbon/css/bootstrap.css" />
-    <link rel="stylesheet" href="<?= base_url() ?>assets/twibbon/css/slick.css" />
-    <link rel="stylesheet" href="<?= base_url() ?>assets/twibbon/css/slick-theme.css" />
-    <link rel="stylesheet" href="<?= base_url() ?>assets/twibbon/css/style.min.css" />
+	<link rel="stylesheet" href="<?= base_url() ?>assets/twibbon/css/slick.css" />
+	<link rel="stylesheet" href="<?= base_url() ?>assets/twibbon/css/slick-theme.css" />
+	<link rel="stylesheet" href="<?= base_url() ?>assets/twibbon/css/style.min.css" />
 	<link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/twibbon/css/campaign.68e4ca24.css" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="<?= base_url() ?>assets/twibbon/img/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="<?= base_url() ?>assets/twibbon/img/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="<?= base_url() ?>assets/twibbon/img/favicon-16x16.png"
-    />
-    <link rel="mask-icon" href="<?= base_url() ?>assets/twibbon/img/safari-pinned-tab.svg" color="#1baaa0" />
-    <meta name="apple-mobile-web-app-title" content="Twibbon" />
-    <meta name="application-name" content="Twibbon" />
-    <meta name="msapplication-TileColor" content="#1baaa0" />
-    <meta name="theme-color" content="#1baaa0" />
-    <title>Twibbon | Where campaigns meet you!</title>
-    <meta
-      name="description"
-      content="From movements tackling huge, serious causes — to anything just for fun, you can always take your part in anything with Twibbon."
-    />
-    <meta name="keywords" content="Twibbon, Campaign, Frame" />
-    <link href="<?= base_url() ?>assets/twibbon/css/app.5d03e511.css" rel="preload" as="style" />
-    <link href=".css/chunk-vendors.d3ac3f59.css" rel="preload" as="style" />
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"
-      data-stencil-namespace="ionicons"
-    ></script>
-    <script
-      nomodule=""
-      src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"
-      data-stencil-namespace="ionicons"
-    ></script>
-    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/twibbon/css/home.4e3a69b2.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="<?= base_url() ?>assets/twibbon/css/below-fold.aeb75ab4.css"
-    />
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<link rel="apple-touch-icon" sizes="180x180" href="<?= base_url() ?>assets/twibbon/img/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="<?= base_url() ?>assets/twibbon/img/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="<?= base_url() ?>assets/twibbon/img/favicon-16x16.png" />
+	<link rel="mask-icon" href="<?= base_url() ?>assets/twibbon/img/safari-pinned-tab.svg" color="#1baaa0" />
+	<meta name="apple-mobile-web-app-title" content="Twibbon" />
+	<meta name="application-name" content="Twibbon" />
+	<meta name="msapplication-TileColor" content="#1baaa0" />
+	<meta name="theme-color" content="#1baaa0" />
+	<title>Twibbon | Where campaigns meet you!</title>
+	<meta name="description" content="From movements tackling huge, serious causes — to anything just for fun, you can always take your part in anything with Twibbon." />
+	<meta name="keywords" content="Twibbon, Campaign, Frame" />
+	<link href="<?= base_url() ?>assets/twibbon/css/app.5d03e511.css" rel="preload" as="style" />
+	<link href=".css/chunk-vendors.d3ac3f59.css" rel="preload" as="style" />
+	<script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js" data-stencil-namespace="ionicons"></script>
+	<script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js" data-stencil-namespace="ionicons"></script>
+	<link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/twibbon/css/home.4e3a69b2.css" />
+	<link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/twibbon/css/below-fold.aeb75ab4.css" />
 
 </head>
 
@@ -96,16 +72,16 @@
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav">
-					<li class="nav-item active"><a class="nav-link" href="<?= site_url('home')?>">Home</a></li>
-					<li class="nav-item"><a class="nav-link" href="<?= site_url('jelajah')?>">Jelahi</a></li>
-					<li class="nav-item"><a class="nav-link" href="<?= site_url('about')?>">Tentang</a></li>
+					<li class="nav-item active"><a class="nav-link" href="<?= site_url('home') ?>">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="<?= site_url('jelajah') ?>">Jelahi</a></li>
+					<li class="nav-item"><a class="nav-link" href="<?= site_url('about') ?>">Tentang</a></li>
 					<?php
 					if ($this->session->has_userdata('login_session')) : ?>
-						<li class="nav-item"><a class="nav-link" href="<?= site_url('campaign')?>">Campaign Saya</a></li>
-					<?php endif;?>
-					
-					<!-- <li class="nav-item"><a class="nav-link" href="<?= site_url('home')?>">Marketplace</a></li> -->
-					
+						<li class="nav-item"><a class="nav-link" href="<?= site_url('campaign') ?>">Campaign Saya</a></li>
+					<?php endif; ?>
+
+					<!-- <li class="nav-item"><a class="nav-link" href="<?= site_url('home') ?>">Marketplace</a></li> -->
+
 					<!-- LOGIN MUNCUL JIKA BELUM LOGIN -->
 					<?php
 					if ($this->session->has_userdata('login_session')) : ?>
