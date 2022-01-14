@@ -46,7 +46,12 @@
 				<ul class="navbar-nav">
 					<li class="nav-item active"><a class="nav-link" href="<?= site_url('home')?>">Home</a></li>
 					<li class="nav-item"><a class="nav-link" href="<?= site_url('jelajah')?>">Jelahi</a></li>
-					<li class="nav-item"><a class="nav-link" href="<?= site_url('home')?>">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="<?= site_url('about')?>">Tentang</a></li>
+					<?php
+					if ($this->session->has_userdata('login_session')) : ?>
+						<li class="nav-item"><a class="nav-link" href="<?= site_url('campaign')?>">Campaign Saya</a></li>
+					<?php endif;?>
+					
 					<!-- <li class="nav-item"><a class="nav-link" href="<?= site_url('home')?>">Marketplace</a></li> -->
 					
 					<!-- LOGIN MUNCUL JIKA BELUM LOGIN -->

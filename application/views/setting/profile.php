@@ -2,7 +2,7 @@
 <section class="banner_area">
     <div class="container">
         <div class="banner_inner_text">
-            <h3>Hai, <?= userdata('nama')?></h3>
+            <h3>Hai, <?= userdata('nama') ?></h3>
             <p>Buat atau atur campaign, dan ubah pengaturan akun Anda.</p>
         </div>
     </div>
@@ -37,22 +37,51 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-8">
                 <div id="accordion" role="tablist" class="solution_collaps">
-                    
                     <div class="card">
                         <div class="card-header" role="tab" id="headingTwo">
                             <h5 class="mb-0">
                                 <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                     Profile
                                     <i class="minus">-</i>
-                                    <i class="plus">+</i>
+                                    <i class="minus">+</i>
                                 </a>
                             </h5>
                         </div>
                         <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
                             <div class="card-body">
-                                <p>Ini profile</p>
+                                <div class="card-content">
+                                    <div class="card-body">
+                                        <form class="form form-vertical">
+                                            <div class="form-body">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="form-group">
+                                                            <p>Nama</p>
+                                                            <div class="position-relative has-icon-left">
+                                                                <input type="text" class="form-control" value="<?= set_value('nama', $user['nama']); ?>" name="nama" id="nama" placeholder="Nama">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="form-group">
+                                                            <p>Email</p>
+                                                            <div class="position-relative has-icon-left">
+                                                                <input type="email" class="form-control" value="<?= set_value('email', $user['email']); ?>" name="email" id="email" placeholder="Email">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-12">
+                                                        <button type="submit" class="btn btn-primary mr-1 mb-1">Simpan</button>
+                                                        <button type="reset" class="btn btn-outline-danger mr-1 mb-1">Reset</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -11,10 +11,20 @@
 
 
  <!--================Feature Area =================-->
+ <!-- <div class="pull-right" style="margin-right: 12%;">
+     <a href="<?= site_url('campaign/add') ?>" class="btn btn-primary btn-flat">
+         <i class="fa fa-files-plus"></i>+ Tambah
+     </a>
+ </div> -->
+ <div class="col-lg-12 col-md-12">
+     <a href="<?= site_url('campaign/add') ?>" class="btn btn-primary btn-flat">
+         <i class="fa fa-files-plus"></i>+ Tambah
+     </a>
+
+ </div>
  <section class="feature_area">
 
      <div class="container">
-        
          <div class="row">
              <div class="col-lg-4 col-md-6">
                  <div class="card" style="width: 22rem;">
@@ -57,6 +67,6 @@
 
 
 
-    <br>
+     <br>
  </section>
  <!--================End Feature Area =================-->
