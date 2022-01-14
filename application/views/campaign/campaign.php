@@ -1,69 +1,55 @@
- <!--================Banner Area =================-->
- <section class="banner_area">
-     <div class="container">
-         <div class="banner_inner_text">
-             <h2>Campaign Saya</h2>
-             <p></p>
-         </div>
-     </div>
- </section>
- <!--================End Banner Area =================-->
+<!--================Banner Area =================-->
+<section class="banner_area">
+    <div class="container">
+        <div class="banner_inner_text">
+            <h3>Twibbon saya</h3>
+            <p>Cari twibbon, dan Masukkan foto kamu dan generate twibbon.</p>
+        </div>
+    </div>
+</section>
+<!--================End Banner Area =================-->
 
+<section>
 
- <!--================Feature Area =================-->
- <!-- <div class="pull-right" style="margin-right: 12%;">
-     <a href="<?= site_url('campaign/add') ?>" class="btn btn-primary btn-flat">
-         <i class="fa fa-files-plus"></i>+ Tambah
-     </a>
- </div> -->
- <div class="col-lg-12 col-md-12">
-     <a href="<?= site_url('campaign/add') ?>" class="btn btn-primary btn-flat">
-         <i class="fa fa-files-plus"></i>+ Tambah
-     </a>
+    <div class="container">
+        <a href="<?= site_url('campaign/add') ?>">
+            <input type="button" class="twb-btn twb-btn--primary flex--1 my-1" name="" id="" value="+ Tambah twibbon baru">
+        </a>
+        <hr><br>
+        <div class="row">
+            <?php
+            foreach ($twibbonById as $key => $row) {
+                if (userdata('id_user') == $row->id_user) :
 
- </div>
- <section class="feature_area">
+            ?>
+                    <div class="col-md-3">
+                        <div class="card-box">
+                            <div class="user-pic">
+                                <img src="<?= base_url() ?>assets/img/upload/twibbon/<?= $row->gambar ?>" class="img-fluid" alt="User Pic">
+                            </div><br>
+                            <h5 style="
+                                      overflow-wrap: break-word;
+                                      white-space: nowrap;
+                                      overflow: hidden;
+                                      text-overflow: ellipsis;
+                                    "><?= $row->tittle_twibbon ?></h5>
+                            <hr>
+                            <!-- 24 huruf limit -->
+                            <p><i class="fa fa-user"></i> <?= $row->nama ?> </p>
+                            <p><i class="fa fa-clock-o"></i> <?= $row->date ?></p>
+                            <a href="<?= site_url('edit') ?>">
+                                <input type="button" class="twb-btn twb-btn--primary flex--1 my-1" name="" id="" value="Edit">
+                            </a>
+                            <a onclick="return confirm('Yakin ingin hapus?')" href="<?= base_url('masuk/delete/') ?>" class="twb-btn twb-btn--primary">Hapus</a>
+                            <hr>
 
-     <div class="container">
-         <div class="row">
-             <div class="col-lg-4 col-md-6">
-                 <div class="card" style="width: 22rem;">
-                     <img class="card-img-top" src="<?= base_url() ?>assets/img/blog/twib.png" alt="Card image cap">
-                     <div class="card-body">
-                         <h4>
-                             <p class="explore__subtitle m-0 p-0">JUDUL</p>
-                         </h4>
-                         <p><i class="fa fa-user-o" aria-hidden="true"></i> asdasdas</p>
-                         <p><i class="fa fa-clock-o" aria-hidden="true"></i> <?= date('d-m-y') ?></p>
-                     </div>
-                 </div>
-             </div>
-             <div class="col-lg-4 col-md-6">
-                 <div class="card" style="width: 22rem;">
-                     <img class="card-img-top" src="<?= base_url() ?>assets/img/blog/twib.png" alt="Card image cap">
-                     <div class="card-body">
-                         <h4>
-                             <p class="explore__subtitle m-0 p-0">JUDUL</p>
-                         </h4>
-                         <p><i class="fa fa-user-o" aria-hidden="true"></i> asdasdas</p>
-                         <p><i class="fa fa-clock-o" aria-hidden="true"></i> <?= date('d-m-y') ?></p>
-                     </div>
-                 </div>
-             </div>
-             <div class="col-lg-4 col-md-6">
-                 <div class="card" style="width: 22rem;">
-                     <img class="card-img-top" src="<?= base_url() ?>assets/img/blog/twib.png" alt="Card image cap">
-                     <div class="card-body">
-                         <h4>
-                             <p class="explore__subtitle m-0 p-0">JUDUL</p>
-                         </h4>
-                         <p><i class="fa fa-user-o" aria-hidden="true"></i> asdasdas</p>
-                         <p><i class="fa fa-clock-o" aria-hidden="true"></i> <?= date('d-m-y') ?></p>
-                     </div>
-                 </div>
-             </div>
-         </div>
-     </div>
-     <br>
- </section>
- <!--================End Feature Area =================-->
+                        </div>
+                    </div><br>
+                <?php endif; ?>
+            <?php } ?>
+
+            <br>
+        </div>
+    </div><br>
+    </div>
+</section>

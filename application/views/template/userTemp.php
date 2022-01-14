@@ -56,6 +56,12 @@
 	<link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/twibbon/css/home.4e3a69b2.css" />
 	<link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/twibbon/css/below-fold.aeb75ab4.css" />
 
+	<!-- DROPZONE -->
+	<!-- Dropzone CSS & JS -->
+	<link href="<?= base_url() ?>assets/dropzone/dropzone.css" type='text/css' rel='stylesheet'>
+	<script src="<?= base_url() ?>assets/dropzone/dropzone.js" type='text/javascript'></script>
+
+	
 </head>
 
 <body>
@@ -77,7 +83,7 @@
 					<li class="nav-item"><a class="nav-link" href="<?= site_url('about') ?>">Tentang</a></li>
 					<?php
 					if ($this->session->has_userdata('login_session')) : ?>
-						<li class="nav-item"><a class="nav-link" href="<?= site_url('campaign') ?>">Campaign Saya</a></li>
+						<li class="nav-item"><a class="nav-link" href="<?= site_url('campaign') ?>">Twibbon Saya</a></li>
 					<?php endif; ?>
 
 					<!-- <li class="nav-item"><a class="nav-link" href="<?= site_url('home') ?>">Marketplace</a></li> -->
@@ -154,6 +160,6 @@
 	<script src="<?= base_url() ?>assets/js/theme.js"></script>
 	<script src="<?= base_url() ?>assets/js/card.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-</body>
+	</body>
 
 </html>

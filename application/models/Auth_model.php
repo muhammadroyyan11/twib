@@ -32,4 +32,30 @@ class Auth_model extends CI_Model
 	{
 		return $this->db->get_where('user', ['email' => $email])->row_array();
 	}
+
+
+	// public function addTwibbon()
+    //     {
+    //     $this->load->library("upload");
+    //     $this->load->helper('url');
+	// 	$login = userdata('id_user');
+		
+    //     $slug = url_title($this->input->post('title'),'dash',TRUE);
+    //     $config['upload_path'] = 'assets/img/upload/twibbon';
+    //         $config['allowed_types'] = 'png';
+    //         $this->upload->initialize($config); 
+    //         $this->upload->do_upload('pictures');
+    //         $image_data = $this->upload->data();
+    //         $pictures = $image_data['file_name'];
+    //         $data = array(
+    //             'tittle_twibbon' => $this->input->post('tittle_twibbon'),
+    //             'name_file' => $pictures,
+    //             'category' => $this->input->post('category'),
+    //             'deskripsi' => $this->input->post('deskripsi'),
+                
+    //             'slug' => $slug,
+    //             'pictures' => $pictures
+    //         );
+    // return $this->db->insert('news', $data);
+    //     } 
 }

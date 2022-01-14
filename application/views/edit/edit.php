@@ -58,7 +58,7 @@
             <!---->
         </div>
         <div class="campaign__page">
-            <div class="container d-flex flex-column align-items-center p-0" style="">
+            <div class="container d-flex flex-column align-items-center p-0">
 
                 <div id="twibbon" class="col-md-8 col-lg-6 mt-20 mb-20">
                     <div style="
@@ -72,49 +72,30 @@
                                 <p class="my-1 ml-2 mr-2" style="font-size: 0.875rem">
                                     Use this photo filter and share it on your social media!
                                 </p>
-                                <!---->
-                                <!---->
-                                <!---->
+                                
                             </div>
                         </div>
                         <div class="twibbon__container" style="height: 460px">
                             <!-- <div style="margin: 5px; position: relative" class="canvas-padding">
                                 <canvas id="c"></canvas>
                             </div> -->
-                            <div class="editor">
-                                <div class="canvas-padding">
-                                    <canvas id="c"></canvas>
-                                </div>
-                                <!-- <div class="tombol">
-                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--file">
-                                        <input class="mdl-textfield__input" placeholder="Unggah foto mu!" type="text" id="uploadFile" readonly />
-                                        <div class="mdl-button mdl-button--primary mdl-button--icon mdl-button--file">
-                                            <i class="material-icons">attach_file</i><input type="file" id="uploadBtn">
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <button id="download" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">unduh</button>
-
-                                </div> -->
+                            <div class="canvas-padding">
+                                <canvas id="c"></canvas>
                             </div>
                         </div>
-                        <!---->
                         <div class="twibbon__button">
                             <input id="uploadPhoto" type="file" hidden="hidden" />
                             <div class="d-flex">
                                 <input class="mdl-textfield__input" placeholder="Unggah foto mu!" type="text" id="uploadFile" readonly />
                                 <div class="mdl-button mdl-button--primary mdl-button--icon mdl-button--file">
                                     <i class="material-icons">attach_file</i><input type="file" id="uploadBtn">
-                                </div>
-                                <!-- <button class="twb-btn twb-btn--primary flex--1 my-1" id="uploadBtn">
-                                    <ion-icon name="camera" style="font-size: 24px; margin-right: 4px" role="img" class="md hydrated" aria-label="camera"></ion-icon>
-                                    Choose a Photo
-                                </button>
-                                <button class="twb-btn twb-btn--primary flex--1 my-1" id="download">
-                                    <ion-icon name="camera" style="font-size: 24px; margin-right: 4px" role="img" class="md hydrated" aria-label="camera"></ion-icon>
-                                    Download
-                                </button> -->
+                                </div><br>
+
                             </div>
+                            <button class="twb-btn twb-btn--primary flex--1 my-1" id="download">
+                                <ion-icon name="camera" style="font-size: 24px; margin-right: 4px" role="img" class="md hydrated" aria-label="camera"></ion-icon>
+                                Download
+                            </button>
                             <!---->
                             <!---->
                             <!---->
@@ -134,8 +115,13 @@
             document.getElementById("uploadFile").value = this.files[0].name;
         };
         var canvas = new fabric.Canvas('c');
-        canvas.setWidth(1000);
-        canvas.setHeight(1000);
+        canvas.setWidth(500);
+        canvas.setHeight(500);
+        // var pxl = canvas.width;
+        // canvas.width = pxl;
+
+        // var pxl = canvas.height;
+        // canvas.height = pxl;
 
         var canvasWrapper = document.getElementById('c');
         var canvasWrapperWidth = canvasWrapper.clientWidth;
@@ -148,15 +134,17 @@
                 }
             });
         });
-        fabric.Image.fromURL('assets/img/tesbeh.png', function(img) {
+        fabric.Image.fromURL('<?= base_url()?>assets/img/upload/twibbon/<?= $twibbon['gambar']?>', function(img) {
             img.scaleToWidth(canvas.getWidth());
             canvas.setOverlayImage(img, canvas.renderAll.bind(canvas));
         });
 
+        
+
         function imageIsLoaded(e) {
             fabric.Image.fromURL(e.target.result, function(img) {
                 var aspectRatio = 1350 / 1080;
-                var factor = 1080 / img.width;
+                var factor = 350 / img.width;
                 img.set({
                     scaleX: factor,
                     scaleY: factor
@@ -165,12 +153,12 @@
                 canvas.item(0).set({
                     borderColor: 'gray',
                     cornerColor: 'black',
-                    cornerSize: 70,
+                    cornerSize: 30,
                     borderScaleFactor: 10,
                     hasBorders: true,
 
-                    rotatingPointOffset: 200,
-                    padding: 60,
+                    rotatingPointOffset: 20,
+                    padding: 150,
                     transparentCorners: true
                 });
                 canvas.setActiveObject(canvas.item(0));
@@ -178,9 +166,10 @@
                 canvas.sendToBack(img);
             });
         };
+        
         $("#download").click(function() {
             $("#c").get(0).toBlob(function(blob) {
-                saveAs(blob, "myIMG.png");
+                saveAs(blob, "Twibbon.png");
             });
         });
     </script>

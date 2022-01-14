@@ -73,318 +73,102 @@
 					<p class="explore__subtitle m-0 p-0">Campaign paling terbaru.</p>
 				</div><a href="<?= site_url('jelajah') ?>" class="d-flex align-items-center mt-2 pl-20" style="font-size: 1rem; color: rgb(20, 35, 75);"> Lihat Semua <ion-icon name="chevron-forward" role="img" class="md hydrated" aria-label="chevron forward" style="font-size: 32px;"></ion-icon></a>
 			</div><br>
-			<div class="row mb-30_reset justify-content-center">
-				<div data-v-3d1a4f76="" dir="ltr" class="w-100 mb-50 slick-slider slick-initialized">
-					<div data-v-3d1a4f76="" class="slick-list">
-						<div data-v-e4caeaf8="" data-v-3d1a4f76="" class="slick-track" style="
-                          width: 2200px;
-                          opacity: 1;
-                          transform: translate3d(0px, 0px, 0px);
-                        ">
-							<div data-v-e4caeaf8="" tabindex="-1" data-index="0" aria-hidden="false" class="slick-slide slick-active slick-current" style="
-                            outline: currentcolor none medium;
-                            width: 275px;
-                          ">
-								<div data-v-e4caeaf8="">
-									<div class="col-sm-12" tabindex="-1" style="width: 100%; display: inline-block" data-v-e4caeaf8="">
-										<div class="team-box has_style1">
-											<a href="<?= site_url('edit')?>" class="">
-												<div class="team-img" style="
-                                      transition: none 0s ease 0s;
-                                      height: 255px;
-                                    ">
-													<div class="team-social">
-														<a href="<?= site_url('edit')?>">View</a>
-													</div>
-													<img src="https://i.pinimg.com/474x/7b/ed/b2/7bedb21c64a924f46903fa931dcef018.jpg" alt="dst109foundersday" class="img-fluid" />
-												</div>
-											</a>
-											<a href="<?= site_url('edit')?>" class="">
-												<h5 title="Event's Title " style="
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="card-box">
+							<div class="user-pic">
+								<img src="<?= base_url() ?>assets/img/tesBeh.png" class="img-fluid" alt="User Pic">
+							</div><br>
+							<h5 style="
                                       overflow-wrap: break-word;
                                       white-space: nowrap;
                                       overflow: hidden;
                                       text-overflow: ellipsis;
-                                    ">
-													Event's Title
-												</h5>
-												<div class="mb-0 d-flex align-items-center" style="margin-top: 10px">
-													<img src="https://di8f64wxtiymb.cloudfront.net/placeholder.png" alt="..." class="avatar rounded-circle avatar-icon" style="
-                                        display: block;
-                                        background: rgb(255, 255, 255) none
-                                          repeat scroll 0% 0%;
-                                        width: 22px;
-                                        float: left;
-                                      " />
-													<p class="m-0" style="
-                                        font-size: 1em;
-                                        color: rgb(20, 35, 75);
-                                        padding-left: 13px;
-                                        white-space: nowrap;
-                                        overflow: hidden;
-                                        text-overflow: ellipsis;
-                                      ">
-														Uploader
-													</p>
-												</div>
-												<div>
-													<p class="d-flex align-items-center mb-0">
-														<ion-icon name="people" style="font-size: 1.25em" role="img" class="md hydrated" aria-label="people">
-														</ion-icon>
-														<span style="
-                                          padding-bottom: 2px;
-                                          padding-left: 13px;
-                                          font-size: 1em;
-                                        ">
-															135K supports</span>
-													</p>
-													<p class="d-flex align-items-center mt-1 mb-2">
-														<ion-icon name="time" style="font-size: 1.25em" role="img" class="md hydrated" aria-label="time">
-														</ion-icon>
-														<span style="
-                                          padding-bottom: 2px;
-                                          padding-left: 13px;
-                                          font-size: 1em;
-                                        ">
-															4 days ago</span>
-													</p>
-												</div>
-											</a>
-											<!---->
-											<!---->
-										</div>
-									</div>
-								</div>
-							</div>
-							<div data-v-e4caeaf8="" tabindex="-1" data-index="1" aria-hidden="false" class="slick-slide slick-active" style="
-                            outline: currentcolor none medium;
-                            width: 275px;
-                          ">
-								<div data-v-e4caeaf8="">
-									<div class="col-sm-12" tabindex="-1" style="width: 100%; display: inline-block" data-v-e4caeaf8="">
-										<div class="team-box has_style1">
-											<a href="<?= site_url('edit')?>" class="">
-												<div class="team-img" style="
-                                      transition: none 0s ease 0s;
-                                      height: 255px;
-                                    ">
-													<div class="team-social">
-														<a href="<?= site_url('edit')?>">View</a>
-													</div>
-													<img src="https://i.pinimg.com/474x/7b/ed/b2/7bedb21c64a924f46903fa931dcef018.jpg" alt="zphib102" class="img-fluid" />
-												</div>
-											</a>
-											<a href="<?= site_url('edit')?>" class="">
-												<h5 title="Event's Title" style="
-                                      overflow-wrap: break-word;
-                                      white-space: nowrap;
-                                      overflow: hidden;
-                                      text-overflow: ellipsis;
-                                    ">
-													Event's Title
-												</h5>
-												<div class="mb-0 d-flex align-items-center" style="margin-top: 10px">
-													<img src="https://di8f64wxtiymb.cloudfront.net/placeholder.png" alt="..." class="avatar rounded-circle avatar-icon" style="
-                                        display: block;
-                                        background: rgb(255, 255, 255) none
-                                          repeat scroll 0% 0%;
-                                        width: 22px;
-                                        float: left;
-                                      " />
-													<p class="m-0" style="
-                                        font-size: 1em;
-                                        color: rgb(20, 35, 75);
-                                        padding-left: 13px;
-                                        white-space: nowrap;
-                                        overflow: hidden;
-                                        text-overflow: ellipsis;
-                                      ">
-														Uploader
-													</p>
-												</div>
-												<div>
-													<p class="d-flex align-items-center mb-0">
-														<ion-icon name="people" style="font-size: 1.25em" role="img" class="md hydrated" aria-label="people">
-														</ion-icon>
-														<span style="
-                                          padding-bottom: 2px;
-                                          padding-left: 13px;
-                                          font-size: 1em;
-                                        ">
-															25K supports</span>
-													</p>
-													<p class="d-flex align-items-center mt-1 mb-2">
-														<ion-icon name="time" style="font-size: 1.25em" role="img" class="md hydrated" aria-label="time">
-														</ion-icon>
-														<span style="
-                                          padding-bottom: 2px;
-                                          padding-left: 13px;
-                                          font-size: 1em;
-                                        ">
-															1 days ago</span>
-													</p>
-												</div>
-											</a>
-											<!---->
-											<!---->
-										</div>
-									</div>
-								</div>
-							</div>
-							<div data-v-e4caeaf8="" tabindex="-1" data-index="2" aria-hidden="false" class="slick-slide slick-active" style="
-                            outline: currentcolor none medium;
-                            width: 275px;
-                          ">
-								<div data-v-e4caeaf8="">
-									<div class="col-sm-12" tabindex="-1" style="width: 100%; display: inline-block" data-v-e4caeaf8="">
-										<div class="team-box has_style1">
-											<a href="<?= site_url('edit')?>" class="">
-												<div class="team-img" style="
-                                      transition: none 0s ease 0s;
-                                      height: 255px;
-                                    ">
-													<div class="team-social">
-														<a href="<?= site_url('edit')?>">View</a>
-													</div>
-													<img src="https://i.pinimg.com/474x/7b/ed/b2/7bedb21c64a924f46903fa931dcef018.jpg" alt="aka2022foundersday" class="img-fluid" />
-												</div>
-											</a>
-											<a href="<?= site_url('edit')?>" class="">
-												<h5 title="Event's Title" style="
-                                      overflow-wrap: break-word;
-                                      white-space: nowrap;
-                                      overflow: hidden;
-                                      text-overflow: ellipsis;
-                                    ">
-													Event's Title
-												</h5>
-												<div class="mb-0 d-flex align-items-center" style="margin-top: 10px">
-													<img src="https://di8f64wxtiymb.cloudfront.net/placeholder.png" alt="..." class="avatar rounded-circle avatar-icon" style="
-                                        display: block;
-                                        background: rgb(255, 255, 255) none
-                                          repeat scroll 0% 0%;
-                                        width: 22px;
-                                        float: left;
-                                      " />
-													<p class="m-0" style="
-                                        font-size: 1em;
-                                        color: rgb(20, 35, 75);
-                                        padding-left: 13px;
-                                        white-space: nowrap;
-                                        overflow: hidden;
-                                        text-overflow: ellipsis;
-                                      ">
-														Uploader
-													</p>
-												</div>
-												<div>
-													<p class="d-flex align-items-center mb-0">
-														<ion-icon name="people" style="font-size: 1.25em" role="img" class="md hydrated" aria-label="people">
-														</ion-icon>
-														<span style="
-                                          padding-bottom: 2px;
-                                          padding-left: 13px;
-                                          font-size: 1em;
-                                        ">
-															17K supports</span>
-													</p>
-													<p class="d-flex align-items-center mt-1 mb-2">
-														<ion-icon name="time" style="font-size: 1.25em" role="img" class="md hydrated" aria-label="time">
-														</ion-icon>
-														<span style="
-                                          padding-bottom: 2px;
-                                          padding-left: 13px;
-                                          font-size: 1em;
-                                        ">
-															1 days ago</span>
-													</p>
-												</div>
-											</a>
-											<!---->
-											<!---->
-										</div>
-									</div>
-								</div>
-							</div>
-							<div data-v-e4caeaf8="" tabindex="-1" data-index="3" aria-hidden="false" class="slick-slide slick-active" style="
-                            outline: currentcolor none medium;
-                            width: 275px;
-                          ">
-								<div data-v-e4caeaf8="">
-									<div class="col-sm-12" tabindex="-1" style="width: 100%; display: inline-block" data-v-e4caeaf8="">
-										<div class="team-box has_style1">
-											<a href="<?= site_url('edit')?>" class="">
-												<div class="team-img" style="
-                                      transition: none 0s ease 0s;
-                                      height: 255px;
-                                    ">
-													<div class="team-social">
-														<a href="<?= site_url('edit')?>">View</a>
-													</div>
-													<img src="https://i.pinimg.com/474x/7b/ed/b2/7bedb21c64a924f46903fa931dcef018.jpg" alt="lixivang" class="img-fluid" />
-												</div>
-											</a>
-											<a href="<?= site_url('edit')?>" class="">
-												<h5 title="Event's Title" style="
-                                      overflow-wrap: break-word;
-                                      white-space: nowrap;
-                                      overflow: hidden;
-                                      text-overflow: ellipsis;
-                                    ">
-													Event's Title
-												</h5>
-												<div class="mb-0 d-flex align-items-center" style="margin-top: 10px">
-													<img src="https://di8f64wxtiymb.cloudfront.net/placeholder.png" alt="..." class="avatar rounded-circle avatar-icon" style="
-                                        display: block;
-                                        background: rgb(255, 255, 255) none
-                                          repeat scroll 0% 0%;
-                                        width: 22px;
-                                        float: left;
-                                      " />
-													<p class="m-0" style="
-                                        font-size: 1em;
-                                        color: rgb(20, 35, 75);
-                                        padding-left: 13px;
-                                        white-space: nowrap;
-                                        overflow: hidden;
-                                        text-overflow: ellipsis;
-                                      ">
-														Uploader
-													</p>
-												</div>
-												<div>
-													<p class="d-flex align-items-center mb-0">
-														<ion-icon name="people" style="font-size: 1.25em" role="img" class="md hydrated" aria-label="people">
-														</ion-icon>
-														<span style="
-                                          padding-bottom: 2px;
-                                          padding-left: 13px;
-                                          font-size: 1em;
-                                        ">
-															17K supports</span>
-													</p>
-													<p class="d-flex align-items-center mt-1 mb-2">
-														<ion-icon name="time" style="font-size: 1.25em" role="img" class="md hydrated" aria-label="time">
-														</ion-icon>
-														<span style="
-                                          padding-bottom: 2px;
-                                          padding-left: 13px;
-                                          font-size: 1em;
-                                        ">
-															16 days ago</span>
-													</p>
-												</div>
-											</a>
-											<!---->
-											<!---->
-										</div>
-									</div>
-								</div>
-							</div>
+                                    ">Rajnish Kumar</h5>
+							<hr>
+							<!-- 24 huruf limit -->
+							<p><i class="fa fa-user"></i> Muhammad Royyan Zamzami </p>
+							<p><i class="fa fa-clock-o"></i> asdnakjsdjk</p>
+							<a href="<?= site_url('edit')?>">
+								<input type="button" class="twb-btn twb-btn--primary flex--1 my-1" name="" id="" value="Gunakan">
+							</a>
+							<hr>
+
 						</div>
-					</div>
+					</div><br>
+
+					<div class="col-md-3">
+						<div class="card-box">
+							<div class="user-pic">
+								<img src="<?= base_url() ?>assets/img/tesBeh.png" class="img-fluid" alt="User Pic">
+							</div><br>
+							<h5 style="
+                                      overflow-wrap: break-word;
+                                      white-space: nowrap;
+                                      overflow: hidden;
+                                      text-overflow: ellipsis;
+                                    ">Rajnish Kumar</h5>
+							<hr>
+							<!-- 24 huruf limit -->
+							<p><i class="fa fa-user"></i> Muhammad Royyan Zamzami </p>
+							<p><i class="fa fa-clock-o"></i> asdnakjsdjk</p>
+							<a href="<?= site_url('edit')?>">
+								<input type="button" class="twb-btn twb-btn--primary flex--1 my-1" name="" id="" value="Gunakan">
+							</a>
+							<hr>
+
+						</div>
+					</div><br>
+
+					<div class="col-md-3">
+						<div class="card-box">
+							<div class="user-pic">
+								<img src="<?= base_url() ?>assets/img/tesBeh.png" class="img-fluid" alt="User Pic">
+							</div><br>
+							<h5 style="
+                                      overflow-wrap: break-word;
+                                      white-space: nowrap;
+                                      overflow: hidden;
+                                      text-overflow: ellipsis;
+                                    ">Rajnish Kumar</h5>
+							<hr>
+							<!-- 24 huruf limit -->
+							<p><i class="fa fa-user"></i> Muhammad Royyan Zamzami </p>
+							<p><i class="fa fa-clock-o"></i> asdnakjsdjk</p>
+							<a href="<?= site_url('edit')?>">
+								<input type="button" class="twb-btn twb-btn--primary flex--1 my-1" name="" id="" value="Gunakan">
+							</a>
+							<hr>
+
+						</div>
+					</div><br>
+
+					<div class="col-md-3">
+						<div class="card-box">
+							<div class="user-pic">
+								<img src="<?= base_url() ?>assets/img/tesBeh.png" class="img-fluid" alt="User Pic">
+							</div><br>
+							<h5 style="
+                                      overflow-wrap: break-word;
+                                      white-space: nowrap;
+                                      overflow: hidden;
+                                      text-overflow: ellipsis;
+                                    ">Rajnish Kumar</h5>
+							<hr>
+							<!-- 24 huruf limit -->
+							<p><i class="fa fa-user"></i> Muhammad Royyan Zamzami </p>
+							<p><i class="fa fa-clock-o"></i> asdnakjsdjk</p>
+							<a href="<?= site_url('edit')?>">
+								<input type="button" class="twb-btn twb-btn--primary flex--1 my-1" name="" id="" value="Gunakan">
+							</a>
+							<hr>
+
+						</div>
+					</div><br>
+					<br>
 				</div>
-			</div>
+			</div><br>
 		</div>
 
 

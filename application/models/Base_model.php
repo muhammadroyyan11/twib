@@ -4,7 +4,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 class Base_model extends CI_Model
 { 
 
-	public function getUser($table, $data = null, $where = null)
+	public function getTwibbon($table, $data = null, $where = null)
 	{
 		if ($data != null) {
 			return $this->db->get_where($table, $data)->row_array();
@@ -123,12 +123,13 @@ class Base_model extends CI_Model
 	public function get_join()
 	{
 		$this->db->select('*');
-		$this->db->from('cash_balance');
-		$this->db->join('user', 'user.id_user = cash_balance.id_user');
+		$this->db->from('twibbon');
+		$this->db->join('user', 'user.id_user = twibbon.id_user');
 		// $this->db->order_by($order, $az);
 		$sql = $this->db->get();
 		return $sql;
 	}
+
 	public function get_join2()
 	{
 		$login = $this->session->userdata('id_user');

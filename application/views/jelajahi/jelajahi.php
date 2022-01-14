@@ -3,7 +3,7 @@
     <div class="container">
         <div class="banner_inner_text">
             <h3>Cari twibbon sesuai keinginanmu !</h3>
-            <p>Buat atau atur campaign, dan ubah pengaturan akun Anda.</p>
+            <p>Cari twibbon, dan Masukkan foto kamu dan generate twibbon.</p>
         </div>
     </div>
 </section>
@@ -13,89 +13,34 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <div class="card-box text-center">
-                    <div class="user-pic">
-                        <img src="<?= base_url()?>assets/img/tesBeh.png" class="img-fluid" alt="User Pic">
-                    </div>
-                    <h4>Rajnish Kumar</h4>
-                    <h6>Web Designer</h6>
-                    <hr>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                    <hr>
-                    
-                </div>
-            </div><br>
+            <?php
+            foreach ($twibbon as $key => $row) {
+            ?>
+                <div class="col-md-3">
+                    <div class="card-box">
+                        <div class="user-pic">
+                            <img src="<?= base_url() ?>assets/img/upload/twibbon/<?= $row->gambar ?>" class="img-fluid" alt="User Pic">
+                        </div><br>
+                        <h5 style="
+                                      overflow-wrap: break-word;
+                                      white-space: nowrap;
+                                      overflow: hidden;
+                                      text-overflow: ellipsis;
+                                    "><?= $row->tittle_twibbon ?></h5>
+                        <hr>
+                        <!-- 24 huruf limit -->
+                        <p><i class="fa fa-user"></i> <?= $row->nama ?> </p>
+                        <p><i class="fa fa-clock-o"></i> <?= $row->date?></p>
+                        <a href="<?= base_url('jelajah/edit/') .  $row->id_twibbon?>">
+                            <input type="button" class="twb-btn twb-btn--primary flex--1 my-1" value="Gunakan">
+                        </a>
+                        <hr>
 
-            <div class="col-md-4">
-                <div class="card-box text-center">
-                    <div class="user-pic">
-                        <img src="<?= base_url()?>assets/img/tesBeh.png" class="img-fluid" alt="User Pic">
                     </div>
-                    <h4>Satyam Tiwari</h4>
-                    <h6>Web Developer</h6>
-                    <hr>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                    <hr>
-                    
-                </div>
-            </div><br>
-
-            <div class="col-md-4">
-                <div class="card-box text-center">
-                    <div class="user-pic">
-                        <img src="<?= base_url()?>assets/img/tesBeh.png" class="img-fluid" alt="User Pic">
-                    </div>
-                    <h4>Salim Malik</h4>
-                    <h6>Front End Developer</h6>
-                    <hr>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                    <hr>
-                    
-                </div>
-            </div><br>
-            <div class="col-md-4">
-                <div class="card-box text-center">
-                    <div class="user-pic">
-                        <img src="<?= base_url()?>assets/img/tesBeh.png" class="img-fluid" alt="User Pic">
-                    </div>
-                    <h4>Rajnish Kumar</h4>
-                    <h6>Web Designer</h6>
-                    <hr>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                    <hr>
-                    
-                </div>
-            </div><br>
-
-            <div class="col-md-4">
-                <div class="card-box text-center">
-                    <div class="user-pic">
-                        <img src="<?= base_url()?>assets/img/tesBeh.png" class="img-fluid" alt="User Pic">
-                    </div>
-                    <h4>Satyam Tiwari</h4>
-                    <h6>Web Developer</h6>
-                    <hr>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                    <hr>
-                    
-                </div>
-            </div><br>
-
-            <div class="col-md-4">
-                <div class="card-box">
-                    <div class="user-pic">
-                        <img src="<?= base_url()?>assets/img/tesBeh.png" class="img-fluid" alt="User Pic">
-                    </div>
-                    <h4 class="text-center">Salim Malik</h4>
-                    <h6 class="text-center">Front End Developer</h6>
-                    <hr>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                    <hr>
-                    
-                </div>
-            </div><br>
+                </div><br>
+            <?php } ?>
             <br>
         </div>
     </div><br>
+    </div>
 </section>
