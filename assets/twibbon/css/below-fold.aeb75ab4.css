@@ -1,0 +1,183 @@
+.btn.btn-primary.btn-outline.btn-blue {
+  cursor: pointer;
+}
+.btn.btn-primary.btn-outline.btn-blue:hover {
+  color: #fff !important;
+  background-color: #14234b !important;
+}
+.btn.btn-primary.btn-outline.btn-red {
+  cursor: pointer;
+}
+.btn.btn-primary.btn-outline.btn-red:hover {
+  color: #fff !important;
+  background-color: #de4b53 !important;
+}
+.custom-select:active,
+.custom-select:focus,
+.custom-select:hover,
+.tag_cloud select#searchLocation,
+.tag_cloud select:hover#searchLocation {
+  box-shadow: none;
+}
+.slick-next {
+  right: -2%;
+}
+.slick-next:before {
+  color: #000;
+}
+.slick-prev {
+  left: -2%;
+}
+.slick-prev:before {
+  color: #000;
+}
+.slick-dots {
+  margin-top: -50px !important;
+}
+.slick-dots li {
+  background: #dfe7e6 !important;
+}
+.slick-dots li.slick-active {
+  background: #1baaa0 !important;
+}
+.slick-list {
+  margin-bottom: 0;
+}
+.placeholders--square {
+  padding-top: 100%;
+}
+.placeholders--text {
+  margin-top: 10px;
+  height: 25px;
+}
+.marketplace-section {
+  padding: 24px 24px 0 24px !important;
+}
+@media screen and (min-width: 768px) {
+  .marketplace-section {
+    padding: 40px 40px 0 40px !important;
+  }
+}
+.marketplace-section__description,
+.marketplace-section__title {
+  max-width: 90%;
+}
+.marketplace-section__label {
+  font-weight: 600;
+  color: #1baaa0;
+}
+.marketplace-section__button {
+  background-color: #1baaa0 !important;
+}
+.marketplace-section__image {
+  width: 80%;
+}
+.marketplace-section__left {
+  border-radius: 20px 20px 0 0;
+  background: url(/assets/images/illustration/partner.png) 95% 100% no-repeat
+    #edf8f8;
+  background-size: 50%;
+  padding-bottom: 50px !important;
+}
+.marketplace-section__right {
+  border-radius: 0 0 20px 20px;
+  background: #1baaa0;
+}
+@media screen and (min-width: 768px) {
+  .marketplace-section__description,
+  .marketplace-section__title {
+    max-width: 70%;
+  }
+  .marketplace-section__label {
+    font-weight: 600;
+    color: #1baaa0;
+  }
+  .marketplace-section__button {
+    background-color: #1baaa0 !important;
+  }
+  .marketplace-section__image {
+    width: 80%;
+  }
+  .marketplace-section__left {
+    border-radius: 20px 0 0 20px;
+    background: url(/assets/images/illustration/partner.png) 95% 100% no-repeat
+      #edf8f8;
+    background-size: 50%;
+    padding-right: 0;
+  }
+  .marketplace-section__right {
+    border-radius: 0 20px 20px 0;
+    background: #1baaa0;
+    padding-left: 0;
+    max-height: 500px;
+  }
+}
+.showcase-section {
+  padding: 24px !important;
+}
+@media screen and (min-width: 768px) {
+  .showcase-section {
+    padding: 40px !important;
+  }
+}
+.showcase-section__description,
+.showcase-section__title {
+  max-width: 100%;
+}
+.showcase-section__label {
+  font-weight: 600;
+  color: #1baaa0;
+}
+.showcase-section__button {
+  background-color: #1baaa0 !important;
+}
+.showcase-section__image {
+  border-radius: 20px;
+  box-shadow: 0 10px 40px 0 rgba(92, 120, 119, 0.6);
+  width: 80%;
+}
+.showcase-section__left {
+  border-radius: 20px 20px 0 0;
+  padding-bottom: 50px !important;
+  background: #edf8f8;
+}
+.showcase-section__right {
+  border-radius: 0 0 20px 20px;
+  background-size: cover !important;
+  background-position: 50% !important;
+}
+@media screen and (min-width: 768px) {
+  .showcase-section__description,
+  .showcase-section__title {
+    max-width: 90%;
+  }
+  .showcase-section__label {
+    font-weight: 600;
+    color: #1baaa0;
+  }
+  .showcase-section__button {
+    background-color: #1baaa0 !important;
+  }
+  .showcase-section__image {
+    border-radius: 20px;
+    box-shadow: 0 10px 40px 0 rgba(92, 120, 119, 0.6);
+    width: 80%;
+  }
+  .showcase-section__left {
+    border-radius: 20px 0 0 20px;
+    background: #edf8f8;
+    padding-right: 0;
+  }
+  .showcase-section__right {
+    border-radius: 0 20px 20px 0;
+    background-size: cover !important;
+    background-position: 50% !important;
+    max-height: 500px;
+  }
+}
+.row.brands .company-item {
+  align-items: flex-start;
+}
+.row.brands .company-item img {
+  height: auto;
+}

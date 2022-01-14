@@ -1,0 +1,29 @@
+.language-selector {
+  border-radius: 10px;
+  border: 1px solid #dee4e4;
+  cursor: pointer;
+}
+.language-selector.is-active {
+  background-color: #edf8f8;
+  border: none;
+}
+.select-language__text {
+  font-size: 0.875rem;
+  color: #6a7678;
+  text-decoration: underline;
+  font-weight: 700;
+}
+.select-language__icon {
+  font-size: 1.25rem;
+  color: #6a7678;
+}
+.pointer {
+  cursor: pointer;
+}
+.close-modal {
+  color: #77748f !important;
+  font-size: 24px;
+}
+.close-modal:hover {
+  cursor: pointer;
+}
