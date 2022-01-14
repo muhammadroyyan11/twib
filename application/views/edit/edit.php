@@ -148,7 +148,7 @@
                 }
             });
         });
-        fabric.Image.fromURL('tesbeh.png', function(img) {
+        fabric.Image.fromURL('assets/img/tesbeh.png', function(img) {
             img.scaleToWidth(canvas.getWidth());
             canvas.setOverlayImage(img, canvas.renderAll.bind(canvas));
         });
