@@ -5,9 +5,9 @@
 			<li data-index="rs-1587" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Creative" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 				<!-- LAYER NR. 1 -->
 				<div class="slider_text_box">
-					<div class="tp-caption tp-resizeme first_text" data-x="['left','left','left','left','15','center']" data-hoffset="['0','80','80','0']" data-y="['top','top','top','top']" data-voffset="['400','400','400','250','180','180']" data-fontsize="['72','72','72','50','50','30']" data-lineheight="['82','82','82','62','62','42']" data-width="['none']" data-height="none" data-whitespace="nowrape" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]" data-textAlign="['left','left','left','left','left','center']">Choose a powerful <br />design for your Start-up</div>
+					<div class="tp-caption tp-resizeme first_text" data-x="['left','left','left','left','15','center']" data-hoffset="['0','80','80','0']" data-y="['top','top','top','top']" data-voffset="['400','400','400','250','180','180']" data-fontsize="['72','72','72','50','50','30']" data-lineheight="['82','82','82','62','62','42']" data-width="['none']" data-height="none" data-whitespace="nowrape" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]" data-textAlign="['left','left','left','left','left','center']"> Rasakan dunia baru <br />dalam membuat twibon	</div>
 
-					<div class="tp-caption tp-resizeme secand_text" data-x="['left','left','left','left','15','center']" data-hoffset="['0','80','80','0']" data-y="['top','top','top','top']" data-voffset="['575','575','575','400','320','300']" data-fontsize="['24','24','24','18','16','16']" data-lineheight="['36','36','36','26','26','26']" data-width="['none','none','none','none','none']" data-height="none" data-whitespace="nowrape" data-type="text" data-responsive_offset="on" data-transform_idle="o:1;" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]" data-textAlign="['left','left','left','left','left','center']">Get your freebie template now!
+					<div class="tp-caption tp-resizeme secand_text" data-x="['left','left','left','left','15','center']" data-hoffset="['0','80','80','0']" data-y="['top','top','top','top']" data-voffset="['575','575','575','400','320','300']" data-fontsize="['24','24','24','18','16','16']" data-lineheight="['36','36','36','26','26','26']" data-width="['none','none','none','none','none']" data-height="none" data-whitespace="nowrape" data-type="text" data-responsive_offset="on" data-transform_idle="o:1;" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]" data-textAlign="['left','left','left','left','left','center']">(Buat twibonmu sekarang)
 					</div>
 
 					<div class="tp-caption tp-resizeme" data-x="['left','left','left','left','15','center']" data-hoffset="['0','80','80','0']" data-y="['top','top','top','top']" data-voffset="['670','670','670','480','370','350']" data-fontsize="['14','14','14','14']" data-lineheight="['46','46','46','46']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]">
@@ -24,9 +24,9 @@
 
 				<!-- LAYER NR. 1 -->
 				<div class="slider_text_box">
-					<div class="tp-caption tp-resizeme first_text" data-x="['left','left','left','left','15','center']" data-hoffset="['0','80','80','0']" data-y="['top','top','top','top']" data-voffset="['400','400','400','250','180','180']" data-fontsize="['72','72','72','50','50','30']" data-lineheight="['82','82','82','62','62','42']" data-width="['none']" data-height="none" data-whitespace="nowrape" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]" data-textAlign="['left','left','left','left','left','center']">Choose a powerful <br />design for your Start-up</div>
+					<div class="tp-caption tp-resizeme first_text" data-x="['left','left','left','left','15','center']" data-hoffset="['0','80','80','0']" data-y="['top','top','top','top']" data-voffset="['400','400','400','250','180','180']" data-fontsize="['72','72','72','50','50','30']" data-lineheight="['82','82','82','62','62','42']" data-width="['none']" data-height="none" data-whitespace="nowrape" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]" data-textAlign="['left','left','left','left','left','center']">Rasakan dunia baru <br />dalam membuat twibon	</div>
 
-					<div class="tp-caption tp-resizeme secand_text" data-x="['left','left','left','left','15','center']" data-hoffset="['0','80','80','0']" data-y="['top','top','top','top']" data-voffset="['575','575','575','400','320','300']" data-fontsize="['24','24','24','18','16','16']" data-lineheight="['36','36','36','26','26','26']" data-width="['none','none','none','none','none']" data-height="none" data-whitespace="nowrape" data-type="text" data-responsive_offset="on" data-transform_idle="o:1;" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]" data-textAlign="['left','left','left','left','left','center']">Get your freebie template now!
+					<div class="tp-caption tp-resizeme secand_text" data-x="['left','left','left','left','15','center']" data-hoffset="['0','80','80','0']" data-y="['top','top','top','top']" data-voffset="['575','575','575','400','320','300']" data-fontsize="['24','24','24','18','16','16']" data-lineheight="['36','36','36','26','26','26']" data-width="['none','none','none','none','none']" data-height="none" data-whitespace="nowrape" data-type="text" data-responsive_offset="on" data-transform_idle="o:1;" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]" data-textAlign="['left','left','left','left','left','center']">(Buat twibonmu sekarang)
 					</div>
 
 					<div class="tp-caption tp-resizeme" data-x="['left','left','left','left','15','center']" data-hoffset="['0','80','80','0']" data-y="['top','top','top','top']" data-voffset="['670','670','670','480','370','350']" data-fontsize="['14','14','14','14']" data-lineheight="['46','46','46','46']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]">
@@ -75,97 +75,32 @@
 			</div><br>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3">
-						<div class="card-box">
-							<div class="user-pic">
-								<img src="<?= base_url() ?>assets/img/tesBeh.png" class="img-fluid" alt="User Pic">
-							</div><br>
-							<h5 style="
+					<?php
+					foreach ($twibbon as $key => $row) {
+					?>
+						<div class="col-md-3">
+							<div class="card-box">
+								<div class="user-pic">
+									<img src="<?= base_url() ?>assets/img/upload/twibbon/<?= $row->gambar ?>" class="img-fluid" alt="User Pic">
+								</div><br>
+								<h5 style="
                                       overflow-wrap: break-word;
                                       white-space: nowrap;
                                       overflow: hidden;
                                       text-overflow: ellipsis;
-                                    ">Rajnish Kumar</h5>
-							<hr>
-							<!-- 24 huruf limit -->
-							<p><i class="fa fa-user"></i> Muhammad Royyan Zamzami </p>
-							<p><i class="fa fa-clock-o"></i> asdnakjsdjk</p>
-							<a href="<?= site_url('edit')?>">
-								<input type="button" class="twb-btn twb-btn--primary flex--1 my-1" name="" id="" value="Gunakan">
-							</a>
-							<hr>
+                                    "><?= $row->tittle_twibbon ?></h5>
+								<hr>
+								<!-- 24 huruf limit -->
+								<p><i class="fa fa-user"></i> <?= $row->nama ?> </p>
+								<p><i class="fa fa-clock-o"></i> <?= $row->date ?></p>
+								<a href="<?= base_url('jelajah/edit/') .  $row->id_twibbon ?>">
+									<input type="button" class="twb-btn twb-btn--primary flex--1 my-1" value="Gunakan">
+								</a>
+								<hr>
 
-						</div>
-					</div><br>
-
-					<div class="col-md-3">
-						<div class="card-box">
-							<div class="user-pic">
-								<img src="<?= base_url() ?>assets/img/tesBeh.png" class="img-fluid" alt="User Pic">
-							</div><br>
-							<h5 style="
-                                      overflow-wrap: break-word;
-                                      white-space: nowrap;
-                                      overflow: hidden;
-                                      text-overflow: ellipsis;
-                                    ">Rajnish Kumar</h5>
-							<hr>
-							<!-- 24 huruf limit -->
-							<p><i class="fa fa-user"></i> Muhammad Royyan Zamzami </p>
-							<p><i class="fa fa-clock-o"></i> asdnakjsdjk</p>
-							<a href="<?= site_url('edit')?>">
-								<input type="button" class="twb-btn twb-btn--primary flex--1 my-1" name="" id="" value="Gunakan">
-							</a>
-							<hr>
-
-						</div>
-					</div><br>
-
-					<div class="col-md-3">
-						<div class="card-box">
-							<div class="user-pic">
-								<img src="<?= base_url() ?>assets/img/tesBeh.png" class="img-fluid" alt="User Pic">
-							</div><br>
-							<h5 style="
-                                      overflow-wrap: break-word;
-                                      white-space: nowrap;
-                                      overflow: hidden;
-                                      text-overflow: ellipsis;
-                                    ">Rajnish Kumar</h5>
-							<hr>
-							<!-- 24 huruf limit -->
-							<p><i class="fa fa-user"></i> Muhammad Royyan Zamzami </p>
-							<p><i class="fa fa-clock-o"></i> asdnakjsdjk</p>
-							<a href="<?= site_url('edit')?>">
-								<input type="button" class="twb-btn twb-btn--primary flex--1 my-1" name="" id="" value="Gunakan">
-							</a>
-							<hr>
-
-						</div>
-					</div><br>
-
-					<div class="col-md-3">
-						<div class="card-box">
-							<div class="user-pic">
-								<img src="<?= base_url() ?>assets/img/tesBeh.png" class="img-fluid" alt="User Pic">
-							</div><br>
-							<h5 style="
-                                      overflow-wrap: break-word;
-                                      white-space: nowrap;
-                                      overflow: hidden;
-                                      text-overflow: ellipsis;
-                                    ">Rajnish Kumar</h5>
-							<hr>
-							<!-- 24 huruf limit -->
-							<p><i class="fa fa-user"></i> Muhammad Royyan Zamzami </p>
-							<p><i class="fa fa-clock-o"></i> asdnakjsdjk</p>
-							<a href="<?= site_url('edit')?>">
-								<input type="button" class="twb-btn twb-btn--primary flex--1 my-1" name="" id="" value="Gunakan">
-							</a>
-							<hr>
-
-						</div>
-					</div><br>
+							</div>
+						</div><br>
+					<?php } ?>
 					<br>
 				</div>
 			</div><br>
@@ -177,7 +112,7 @@
 			<div class="c_title">
 				<img src="img/icon/title-icon.png" alt="">
 				<h6>Discover the features</h6>
-				<h2>We are young but bold</h2>
+				<h2>Kenapa memilih kami</h2>
 			</div>
 			<div class="row feature_inner">
 				<div class="col-lg-4 col-sm-6">
@@ -185,8 +120,8 @@
 						<div class="f_icon">
 							<img src="<?= base_url() ?>assets/img/icon/f-icon-1.png" alt="">
 						</div>
-						<h4>Brand Identity</h4>
-						<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. </p>
+						<h4>Mudah digunakan</h4>
+						<p>Cukup masukkan foto kamu, atur posisi pada twibbon yang tersedia dan download twibbon.</p>
 						<a class="more_btn" href="#">Read More</a>
 					</div>
 				</div>
@@ -195,8 +130,8 @@
 						<div class="f_icon">
 							<img src="<?= base_url() ?>assets/img/icon/f-icon-2.png" alt="">
 						</div>
-						<h4>Online Marketing</h4>
-						<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. </p>
+						<h4>Tanpa perlu Login</h4>
+						<p>Pergi ke menu Jelajahi twibbon yang tersedia dan pilih tanpa harus login terlebih dahulu. </p>
 						<a class="more_btn" href="#">Read More</a>
 					</div>
 				</div>
@@ -205,8 +140,8 @@
 						<div class="f_icon">
 							<img src="<?= base_url() ?>assets/img/icon/f-icon-3.png" alt="">
 						</div>
-						<h4>Social Media</h4>
-						<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. </p>
+						<h4>Hasil foto HD</h4>
+						<p>Hasil generate foto twibbon di website kami memiliki kualitas HD sehingga siap upload di sosial media kamu. </p>
 						<a class="more_btn" href="#">Read More</a>
 					</div>
 				</div>
@@ -226,17 +161,10 @@
 						<div class="l_title">
 							<img src="<?= base_url() ?>assets/img/icon/title-icon.png" alt="">
 							<h6>Discover the features</h6>
-							<h2>We build a strong team of great people</h2>
+							<h2>Selayang pandang</h2>
 						</div>
-						<p>Cras ex mauris, ornare eget pretium sit amet, dignissim et turpis. Nunc nec maximus dui, vel suscipit dolor. Donec elementum velit a orci facilisis rutrum. Nam convallis vel erat id dictum. Sed ut risus in orci convallis viverra.</p>
-						<ul>
-							<li><a href="#">Nunc nec maximus dui, </a></li>
-							<li><a href="#">Aenean pellentesque elit vitae</a></li>
-							<li><a href="#">Aenean pellentesque elit vitae</a></li>
-							<li><a href="#">Ex mauris, ornare eget pretium </a></li>
-							<li><a href="#">Cras ex mauris, ornare eget preti</a></li>
-						</ul>
-
+						<p>Berawal dari keresahan dalam membuat twibon yang perlu login, kesusahan mencari foto, dan Hasil Gambar kurang maksimal.</p>
+						<p>Maka dari itulah kami membuat Apps untuk menyelesaikan itu semua. Besar harapan kami agar teman-teman semua bisa merasakan manfaatnya.</p>
 					</div>
 
 				</div>
@@ -270,19 +198,3 @@
 		</div>
 	</section>
 	<!--================End Team People Area =================-->
-
-
-	<!--================Map Area =================-->
-	<section class="world_map_area p_100">
-		<div class="container">
-			<div class="world_map_inner">
-				<img class="img-fluid" src="<?= base_url() ?>assets/img/world-map.png" alt="">
-				<div class="bd-callout">
-					<h3>TES</h3>
-					<p>Depok, no253 <br /> Indonesia</p>
-					<h4><a href="#">+453678 9283 559</a> <a href="#">contact@template.com</a></h4>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================End Map Area =================-->

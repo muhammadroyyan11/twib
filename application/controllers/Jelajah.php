@@ -16,8 +16,8 @@ class Jelajah extends CI_Controller {
 		$this->load->model('Base_model', 'base');
 		$this->load->library('form_validation');
 		// $this->load->library('upload');
-		$userId = $this->session->userdata('login_session')['user'];
-		$this->user = $this->base->getUsers('user', ['id_user' => $userId]);
+		// $userId = $this->session->userdata('login_session')['user'];
+		// $this->user = $this->base->getUsers('user', ['id_user' => $userId]);
 	}
 
 	public function index()

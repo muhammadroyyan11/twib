@@ -28,7 +28,6 @@ a {
 .canvas-container canvas {
     width: 380px !important;
     height: 380px !important;
-    border: 3px solid rgb(221, 37, 108);
 }
 
 .tombol {

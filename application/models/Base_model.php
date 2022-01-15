@@ -2,7 +2,7 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 
 class Base_model extends CI_Model
-{ 
+{
 
 	public function getTwibbon($table, $data = null, $where = null)
 	{
@@ -13,21 +13,32 @@ class Base_model extends CI_Model
 		}
 	}
 
-	public function joinCategory($order,$where){
+	public function getUser($table, $data = null, $where = null)
+	{
+		if ($data != null) {
+			return $this->db->get_where($table, $data)->row_array();
+		} else {
+			return $this->db->get_where($table, $where)->result_array();
+		}
+	}
+
+	public function joinCategory($order, $where)
+	{
 		$this->db->select('*');
 		$this->db->from('cash_balance');
-		$this->db->join('categori','categori.id_categori = cash_balance.category');
+		$this->db->join('categori', 'categori.id_categori = cash_balance.category');
 		$this->db->order_by($order, 'DESC');
 		$this->db->where($where);
 		$query = $this->db->get();
 		return $query;
 	}
 
-	public function joinCategory2($order, $where, $range = null){
+	public function joinCategory2($order, $where, $range = null)
+	{
 		$this->db->select('*');
 		$this->db->from('cash_balance');
-		$this->db->join('categori','categori.id_categori = cash_balance.category');
-		$this->db->join('user','user.id_user = cash_balance.id_user');
+		$this->db->join('categori', 'categori.id_categori = cash_balance.category');
+		$this->db->join('user', 'user.id_user = cash_balance.id_user');
 		$this->db->order_by($order, 'DESC');
 		$this->db->where($where);
 
@@ -69,7 +80,7 @@ class Base_model extends CI_Model
 		return $query;
 	}
 
-	public function getCash($table, $order , $where)
+	public function getCash($table, $order, $where)
 	{
 		// $tanggal = date('Y-m-d');
 		$this->db->select('*');
@@ -80,7 +91,7 @@ class Base_model extends CI_Model
 		return $query;
 	}
 
-	public function get_uang($table, $order , $where)
+	public function get_uang($table, $order, $where)
 	{
 		// $tanggal = date('Y-m-d');
 		$this->db->select('*');
@@ -125,6 +136,18 @@ class Base_model extends CI_Model
 		$this->db->select('*');
 		$this->db->from('twibbon');
 		$this->db->join('user', 'user.id_user = twibbon.id_user');
+		// $this->db->order_by($order, $az);
+		$sql = $this->db->get();
+		return $sql;
+	}
+
+	public function get_join_limit()
+	{
+		$this->db->select('*');
+		$this->db->from('twibbon');
+		$this->db->join('user', 'user.id_user = twibbon.id_user');
+		$this->db->order_by("date", "asc");
+		$this->db->limit('4');
 		// $this->db->order_by($order, $az);
 		$sql = $this->db->get();
 		return $sql;

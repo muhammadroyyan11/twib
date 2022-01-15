@@ -33,7 +33,7 @@ class Auth extends CI_Controller
 		$this->form_validation->set_rules('password', 'Password', 'required|trim');
 
 		if ($this->form_validation->run() == false) {
-			$data['title'] = 'Login Aplikasi';
+			$data['tittle'] = 'Login Aplikasi';
 			$this->template->load('template/authTemp', 'auth/login', $data);
 		} else {
 			$input = $this->input->post(null, true);
@@ -60,5 +60,42 @@ class Auth extends CI_Controller
 			}
 		}
 	}
+
+	public function logout()
+    {
+        $this->session->unset_userdata('login_session');
+
+        set_pesan('anda telah berhasil logout');
+        redirect('auth');
+    }
+
+	public function register()
+    {
+        $this->form_validation->set_rules('nama', 'Nama', 'required|trim');
+        $this->form_validation->set_rules('password', 'Password', 'required|min_length[8]|trim');
+        $this->form_validation->set_rules('password2', 'Konfirmasi Password', 'matches[password]|trim');
+        $this->form_validation->set_rules('email', 'Email', 'required|trim|valid_email|is_unique[user.email]');
+
+        if ($this->form_validation->run() == false) {
+            $data['tittle'] = 'Buat Akun';
+			$this->template->load('template/authTemp', 'auth/register', $data);
+        } else {
+            $input = $this->input->post(null, true);
+            unset($input['password2']);
+            $input['password']      = password_hash($input['password'], PASSWORD_DEFAULT);
+            $input['role']          = 'gudang';
+            $input['is_active']     = 1;
+            $input['created_at']    = time();
+
+            $query = $this->base->insert('user', $input);
+            if ($query) {
+                set_pesan('daftar berhasil. Selanjutnya silahkan login ke akun anda.');
+                redirect('auth');
+            } else {
+                set_pesan('gagal menyimpan ke database', false);
+                redirect('register');
+            }
+        }
+    }
 
 }

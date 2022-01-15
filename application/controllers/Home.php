@@ -13,6 +13,7 @@ class Home extends CI_Controller {
 	{
         $data['tittle'] = 'Home';
 		// var_dump(userdata('id_user'));
+		$data['twibbon'] = $this->base_model->get_join_limit()->result();
         $this->template->load('template/userTemp', 'home/home', $data);
 	}
 }

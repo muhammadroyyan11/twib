@@ -92,6 +92,7 @@
 					<?php
 					if ($this->session->has_userdata('login_session')) : ?>
 						<li class="nav-item"><a class="nav-link" href="<?= site_url('profile') ?>">Account</a></li>
+						<li class="nav-item"><a class="nav-link" href="<?= site_url('auth/logout') ?>">Logout</a></li>
 					<?php else : ?>
 						<li class="nav-item"><a class="nav-link" href="<?= site_url('auth') ?>">Login</a></li>
 					<?php endif; ?>
@@ -115,7 +116,7 @@
 						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 						Copyright &copy;2021-<script>
 							document.write(new Date().getFullYear());
-						</script></i> by <a href="#" target="_blank">TES BEH</a>
+						</script></i> by <a href="#">Twibbon Generator</a>
 						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 					</h5>
 				</div>
