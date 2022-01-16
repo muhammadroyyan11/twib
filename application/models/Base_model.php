@@ -7,8 +7,10 @@ class Base_model extends CI_Model
 	public function getTwibbon($table, $data = null, $where = null)
 	{
 		if ($data != null) {
+			$this->db->join('user', 'user.id_user = twibbon.id_user');
 			return $this->db->get_where($table, $data)->row_array();
 		} else {
+			$this->db->join('user', 'user.id_user = twibbon.id_user');
 			return $this->db->get_where($table, $where)->result_array();
 		}
 	}
@@ -139,6 +141,16 @@ class Base_model extends CI_Model
 		// $this->db->order_by($order, $az);
 		$sql = $this->db->get();
 		return $sql;
+	}
+
+	public function get_join_where($id)
+	{
+		$this->db->select('*');
+		$this->db->from('twibbon');
+		$this->db->join('user', 'user.id_user = twibbon.id_user');
+		$this->db->where('id_twibbon', $id);
+		$query = $this->db->get();
+		return $query->result();
 	}
 
 	public function get_join_limit()

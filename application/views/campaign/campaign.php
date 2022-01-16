@@ -20,7 +20,6 @@
             <?php
             foreach ($twibbonById as $key => $row) {
                 if (userdata('id_user') == $row->id_user) :
-
             ?>
                     <div class="col-md-3">
                         <div class="card-box">
@@ -40,7 +39,7 @@
                             <a href="<?= site_url('edit') ?>">
                                 <input type="button" class="twb-btn twb-btn--primary flex--1 my-1" name="" id="" value="Edit">
                             </a>
-                            <a onclick="return confirm('Yakin ingin hapus?')" href="<?= base_url('masuk/delete/') ?>" class="twb-btn twb-btn--primary">Hapus</a>
+                            <a onclick="return confirm('Yakin ingin hapus?')" href="<?= base_url('campaign/delete/') .  $row->id_twibbon ?>" class="twb-btn twb-btn--primary">Hapus</a>
                             <hr>
 
                         </div>

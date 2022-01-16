@@ -51,32 +51,50 @@ class Campaign extends CI_Controller
 
 		$this->load->library('upload', $config);
 
-		if ( ! $this->upload->do_upload('userfile'))
-		{
-				echo "Error uploaded file";
+		if (!$this->upload->do_upload('userfile')) {
+			$this->session->set_flashdata('pesan', '<div class="alert alert-success" role="alert"> Format gambar bukan PNG. </div>');
+
+			redirect('campaign/add');
+		} else {
+			$gambar = $this->upload->data();
+			$gambar = $gambar['file_name'];
+			$tittle = $this->input->post('tittle_twibbon', TRUE);
+			$deskripsi = $this->input->post('deskripsi', TRUE);
+			$date = date("Y-m-d");
+			$id_user = userdata('id_user');
+
+			$data = array(
+				'tittle_twibbon' => $tittle,
+				'gambar' => $gambar,
+				'deskripsi' => $deskripsi,
+				'date' => $date,
+				'id_user' => $id_user
+			);
+
+			$this->base_model->insert('twibbon', $data);
+			$this->session->set_flashdata('pesan', '<div class="alert alert-success" role="alert"> Data Berhasil Ditambahkan! </div>');
+
+			redirect('campaign');
 		}
-		else
-		{
-				$gambar = $this->upload->data();
-				$gambar = $gambar['file_name'];
-				$tittle = $this->input->post('tittle_twibbon', TRUE);
-				$deskripsi = $this->input->post('deskripsi', TRUE);
-				$date = date("Y-m-d");
-				$id_user = userdata('id_user');
-
-				$data = array(
-					'tittle_twibbon' => $tittle,
-					'gambar' => $gambar,
-					'deskripsi' => $deskripsi,
-					'date' => $date,
-					'id_user' => $id_user
-				);
-
-				$this->base_model->insert('twibbon', $data);
-				$this->session->set_flashdata('pesan', '<div class="alert alert-success" role="alert"> Data Berhasil Ditambahkan! </div>');
-
-				redirect('campaign');
-		}
-	
 	}
+
+	public function delete($id){
+		$where=array('id_twibbon' => $id);
+		$this->base_model->del('twibbon', $where);
+		redirect('campaign');
+	}
+
+	public function addDukungan() {
+        $data = $this->input->post(NULL, TRUE);
+
+        $set = '1';
+        $params['dukungan'] = $set;
+        $this->db->where(['id_twibbon' => $data['id_twibbon'], 'twibbon' => $data['twibbon']]);
+        $result = $this->db->update('twibbon' ,$params);
+        
+        if ($result) {
+            echo 'k';
+        }
+
+    }
 }

@@ -59,7 +59,22 @@
         </div>
         <div class="campaign__page">
             <div class="container d-flex flex-column align-items-center p-0">
+                <div class="d-flex flex-column col-md-8 col-lg-6 justify-content-center align-items-center mb-2">
 
+                    <h6 class="campaign__creator text-center">Pemilik Twibbon</h6>
+                    <h3 class="campaign__name text-center mt-1"><?= $twibbon['tittle_twibbon'] ?></h3>
+                    <div class="d-flex justify-content-center mt-2">
+                        <div class="d-flex align-items-center mr-2">
+                            <ion-icon name="people" class="campaign__icon mr-1 md hydrated" role="img" aria-label="people"></ion-icon>
+                            <p class="campaign__detail m-0"><?= $twibbon['nama'] ?></p>
+                        </div>
+
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <ion-icon name="time" class="campaign__icon mr-1 md hydrated" role="img" aria-label="time"></ion-icon>
+                        <p class="campaign__detail m-0"><?= $twibbon['date'] ?></p>
+                    </div>
+                </div>
                 <div id="twibbon" class="col-md-8 col-lg-6 mt-20 mb-20">
                     <div style="
                 background-color: rgb(255, 255, 255);
@@ -72,10 +87,10 @@
                                 <p class="my-1 ml-2 mr-2" style="font-size: 0.875rem">
                                     Use this photo filter and share it on your social media!
                                 </p>
-                                
+
                             </div>
                         </div>
-                        <div class="twibbon__container" style="height: 460px">
+                        <div class="twibbon__container">
                             <!-- <div style="margin: 5px; position: relative" class="canvas-padding">
                                 <canvas id="c"></canvas>
                             </div> -->
@@ -86,9 +101,10 @@
                         <div class="twibbon__button">
                             <input id="uploadPhoto" type="file" hidden="hidden" />
                             <div class="d-flex">
-                                <input class="mdl-textfield__input" placeholder="Unggah foto mu!" type="text" id="uploadFile" readonly />
-                                <div class="mdl-button mdl-button--primary mdl-button--icon mdl-button--file">
-                                    <i class="material-icons">attach_file</i><input type="file" id="uploadBtn">
+
+                                <input hidden class="mdl-textfield__input" placeholder="Unggah foto mu!" type="text" id="uploadFile" readonly />
+                                <div class=" twb-btn twb-btn--primary flex--1 my-1--file">
+                                    <input type="file" id="uploadBtn">
                                 </div><br>
 
                             </div>
@@ -134,12 +150,12 @@
                 }
             });
         });
-        fabric.Image.fromURL('<?= base_url()?>assets/img/upload/twibbon/<?= $twibbon['gambar']?>', function(img) {
+        fabric.Image.fromURL('<?= base_url() ?>assets/img/upload/twibbon/<?= $twibbon['gambar'] ?>', function(img) {
             img.scaleToWidth(canvas.getWidth());
             canvas.setOverlayImage(img, canvas.renderAll.bind(canvas));
         });
 
-        
+
 
         function imageIsLoaded(e) {
             fabric.Image.fromURL(e.target.result, function(img) {
@@ -166,7 +182,7 @@
                 canvas.sendToBack(img);
             });
         };
-        
+
         $("#download").click(function() {
             $("#c").get(0).toBlob(function(blob) {
                 saveAs(blob, "Twibbon.png");

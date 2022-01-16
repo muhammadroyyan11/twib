@@ -34,6 +34,7 @@ class Jelajah extends CI_Controller {
         $data['tittle'] = 'Add Photo';
 
 		$data['twibbon'] = $this->base->getTwibbon('twibbon', ['id_twibbon' => $id]);
+		// $data['twibbon'] = $this->base_model->get_join_where(['id_twibbon' => $id])->result();
 		// var_dump(userdata('id_user'));
         // $this->template->load('edit/edit', $data);
         $this->load->view('edit/edit', $data);

@@ -177,9 +177,19 @@ button.twb-btn--danger-outline:hover {
     position: relative;
     top: 0;
     left: 0;
+    height: 400px;
     margin-top: 20px;
-    margin-left: 15px;
-    margin-right: 15px
+}
+
+@media only screen and (max-width: 428px) {
+    /* For mobile phones: */
+    .twibbon__container {
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 300px;
+        margin-top: 20px;
+    }
 }
 
 .twibbon__container.image-loading {
