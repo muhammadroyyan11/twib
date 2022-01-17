@@ -43,8 +43,8 @@
                     <!-- Register-->
                     <div class="d-flex col-lg-4 align-items-center auth-bg px-2 p-lg-5">
                         <div class="col-12 col-sm-8 col-md-6 col-lg-12 px-xl-2 mx-auto">
-                            <h2 class="card-title font-weight-bold mb-1">Adventure starts here 🚀</h2>
-                            <p class="card-text mb-2">Make your app management easy and fun!</p>
+                            <h2 class="card-title font-weight-bold mb-1">Buat akun 🚀</h2>
+                            <p class="card-text mb-2">Silahkan mengisi form dibawah ini!</p>
                             <?= $this->session->flashdata('pesan'); ?>
                             <?= form_open('', ['class' => 'user']); ?>
                             <div class="form-group">
@@ -80,13 +80,9 @@
                                     <label class="custom-control-label" for="register-privacy-policy">I agree to<a href="javascript:void(0);">&nbsp;privacy policy & terms</a></label>
                                 </div>
                             </div>
-                            <button class="btn btn-primary btn-block" tabindex="5">Sign up</button>
+                            <button class="btn btn-primary btn-block" tabindex="5">Daftar</button>
                             <?= form_close(); ?>
-                            <p class="text-center mt-2"><span>Already have an account?</span><a href="<?= site_url('auth') ?>"><span>&nbsp;Sign in</span></a></p>
-                            <div class="divider my-2">
-                                <div class="divider-text">or</div>
-                            </div>
-                            <div class="auth-footer-btn d-flex justify-content-center"><a class="btn btn-facebook" href="javascript:void(0)"><i data-feather="facebook"></i></a><a class="btn btn-twitter white" href="javascript:void(0)"><i data-feather="twitter"></i></a><a class="btn btn-google" href="javascript:void(0)"><i data-feather="mail"></i></a><a class="btn btn-github" href="javascript:void(0)"><i data-feather="github"></i></a></div>
+                            <p class="text-center mt-2"><span>Sudah memiliki akun?</span><a href="<?= site_url('auth') ?>"><span>&nbsp;Masuk disini</span></a></p>
                         </div>
                     </div>
                     <!-- /Register-->
