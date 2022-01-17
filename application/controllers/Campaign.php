@@ -51,7 +51,31 @@ class Campaign extends CI_Controller
 
 		$this->load->library('upload', $config);
 
-		$gambar = $this->upload->data();
+		
+
+
+		if (!$this->upload->do_upload('userfile')) {
+			// $this->session->set_flashdata('pesan', '<div class="alert alert-success" role="alert"> Format gambar bukan PNG. </div>');
+
+			// redirect('campaign/add');
+			$gambar = $this->upload->data();
+			$gambar = $gambar['file_name'];
+			$tittle = $this->input->post('tittle_twibbon', TRUE);
+			$deskripsi = $this->input->post('deskripsi', TRUE);
+			$date = date("Y-m-d h:i:sa");
+			$id_user = userdata('id_user');
+
+			$data = array(
+				'tittle_twibbon' => $tittle,
+				'gambar' => $gambar,
+				'deskripsi' => $deskripsi,
+				'date' => $date,
+				'id_user' => $id_user
+			);
+			var_dump($data);
+		} else {
+
+			$gambar = $this->upload->data();
 			$gambar = $gambar['file_name'];
 			$tittle = $this->input->post('tittle_twibbon', TRUE);
 			$deskripsi = $this->input->post('deskripsi', TRUE);
@@ -66,18 +90,11 @@ class Campaign extends CI_Controller
 				'id_user' => $id_user
 			);
 
-
-		if (!$this->upload->do_upload('userfile')) {
-			$this->session->set_flashdata('pesan', '<div class="alert alert-success" role="alert"> Format gambar bukan PNG. </div>');
-
-			// redirect('campaign/add');
 			var_dump($data);
-		} else {
-			
-			$this->base_model->insert('twibbon', $data);
-			$this->session->set_flashdata('pesan', '<div class="alert alert-success" role="alert"> Data Berhasil Ditambahkan! </div>');
+			// $this->base_model->insert('twibbon', $data);
+			// $this->session->set_flashdata('pesan', '<div class="alert alert-success" role="alert"> Data Berhasil Ditambahkan! </div>');
 
-			redirect('campaign');
+			// redirect('campaign');
 		}
 	}
 
