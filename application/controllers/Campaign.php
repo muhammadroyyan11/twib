@@ -60,7 +60,7 @@ class Campaign extends CI_Controller
 			$gambar = $gambar['file_name'];
 			$tittle = $this->input->post('tittle_twibbon', TRUE);
 			$deskripsi = $this->input->post('deskripsi', TRUE);
-			$date = date("Y-m-d");
+			$date = date("Y-m-d h:i:sa");
 			$id_user = userdata('id_user');
 
 			$data = array(
