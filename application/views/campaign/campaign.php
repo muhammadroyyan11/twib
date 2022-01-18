@@ -11,11 +11,13 @@
 
 <section>
 
-    <div class="container">
+    <div class="container"  id="card-lists">
         <a href="<?= site_url('campaign/add') ?>">
             <input type="button" class="twb-btn twb-btn--primary flex--1 my-1" name="" id="" value="+ Tambah twibbon baru">
         </a>
         <hr><br>
+            <input type="text" class="myInput" id="myInput" onkeyup="myFunction()" placeholder="Cari Twibbon">
+        
         <div class="row">
             <?php
             foreach ($twibbonById as $key => $row) {
@@ -26,22 +28,24 @@
                             <div class="user-pic">
                                 <img src="<?= base_url() ?>assets/img/upload/twibbon/<?= $row->gambar ?>" class="img-fluid" alt="User Pic">
                             </div><br>
-                            <h5 style="
-                                      overflow-wrap: break-word;
-                                      white-space: nowrap;
-                                      overflow: hidden;
-                                      text-overflow: ellipsis;
-                                    "><?= $row->tittle_twibbon ?></h5>
-                            <hr>
-                            <!-- 24 huruf limit -->
-                            <p><i class="fa fa-user"></i> <?= $row->nama ?> </p>
-                            <p><i class="fa fa-clock-o"></i> <?= $row->date ?></p>
-                            <a href="<?= site_url('edit') ?>">
-                                <input type="button" class="twb-btn twb-btn--primary flex--1 my-1" name="" id="" value="Edit">
-                            </a>
-                            <a onclick="return confirm('Yakin ingin hapus?')" href="<?= base_url('campaign/delete/') .  $row->id_twibbon ?>" class="twb-btn twb-btn--primary">Hapus</a>
-                            <hr>
-
+                            <div class="card-body">
+                                <h5 style="
+                                        overflow-wrap: break-word;
+                                        white-space: nowrap;
+                                        overflow: hidden;
+                                        text-overflow: ellipsis;
+                                        "><?= $row->tittle_twibbon ?></h5>
+                                <hr>
+                                <!-- 24 huruf limit -->
+                                <p><i class="fa fa-user"></i> <?= $row->nama ?> </p>
+                                <p><i class="fa fa-clock-o"></i> <?= $row->date ?></p>
+                                <a href="<?= site_url('edit') ?>">
+                                    <input type="button" class="twb-btn twb-btn--primary flex--1 my-1" name="" id="" value="Edit">
+                                </a>
+                                <a onclick="return confirm('Yakin ingin hapus?')" href="<?= base_url('campaign/delete/') .  $row->id_twibbon ?>" class="twb-btn twb-btn--primary">Hapus</a>
+                                <hr>
+                            </div>
+                            
                         </div>
                     </div><br>
                 <?php endif; ?>

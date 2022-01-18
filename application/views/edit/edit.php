@@ -133,11 +133,6 @@
         var canvas = new fabric.Canvas('c');
         canvas.setWidth(500);
         canvas.setHeight(500);
-        // var pxl = canvas.width;
-        // canvas.width = pxl;
-
-        // var pxl = canvas.height;
-        // canvas.height = pxl;
 
         var canvasWrapper = document.getElementById('c');
         var canvasWrapperWidth = canvasWrapper.clientWidth;
@@ -169,12 +164,12 @@
                 canvas.item(0).set({
                     borderColor: 'gray',
                     cornerColor: 'black',
-                    cornerSize: 30,
-                    borderScaleFactor: 10,
+                    cornerSize: 10,
+                    borderScaleFactor: 1,
                     hasBorders: true,
 
-                    rotatingPointOffset: 20,
-                    padding: 1,
+                    rotatingPointOffset: 50,
+                    padding: 10,
                     transparentCorners: true
                 });
                 canvas.setActiveObject(canvas.item(0));
