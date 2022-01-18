@@ -77,7 +77,9 @@
 				<div class="row">
 					<?php
 					foreach ($twibbon as $key => $row) {
+						$date = new DateTime($row->date);
 					?>
+					
 						<div class="col-md-3">
 							<div class="card-box">
 								<div class="user-pic">
@@ -92,7 +94,7 @@
 								<hr>
 								<!-- 24 huruf limit -->
 								<p><i class="fa fa-user"></i> <?= $row->nama ?> </p>
-								<p><i class="fa fa-clock-o"></i> <?= $row->date ?></p>
+								<p><i class="fa fa-clock-o"></i> <?= $date->format('Y-m-d'); ?></p>
 								<a href="<?= base_url('jelajah/edit/') .  $row->id_twibbon ?>">
 									<input type="button" class="twb-btn twb-btn--primary flex--1 my-1" value="Gunakan">
 								</a>

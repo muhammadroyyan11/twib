@@ -23,6 +23,9 @@
 	<!-- Extra plugin css -->
 	<link href="<?= base_url() ?>assets/vendors/owl-carousel/owl.carousel.min.css" rel="stylesheet">
 
+
+	<link href="<?= base_url() ?>assets/css/search.css" rel="stylesheet">
+
 	<link href="<?= base_url() ?>assets/css/style.css" rel="stylesheet">
 	<!-- <link href="<?= base_url() ?>assets/css/card.css" rel="stylesheet"> -->
 	<link href="<?= base_url() ?>assets/css/responsive.css" rel="stylesheet">
@@ -136,6 +139,7 @@
 
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="<?= base_url() ?>assets/js/search.js"></script>
 	<script src="<?= base_url() ?>assets/js/jquery-3.2.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="<?= base_url() ?>assets/js/popper.min.js"></script>
