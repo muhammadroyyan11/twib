@@ -42,26 +42,3 @@
     </div><br>
     </div>
 </section>
-
-<script>
-function myFunction() {
-    var input, filter, div, img, h5, p, i, txtValue;
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();
-    div = document.getElementById("myTable");
-    img = div.getElementsByTagName("img");
-    h5 = div.getElementsByTagName("h5");
-    // p = div.getElementsByTagName("p");
-    for (i = 0; i < tr.length; i++) {
-      p = tr[i].getElementsByTagName("td")[0];
-      if (td) {
-        txtValue = td.textContent || td.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-          tr[i].style.display = "";
-        } else {
-          tr[i].style.display = "none";
-        }
-      }       
-    }
-  }
-  </script>
