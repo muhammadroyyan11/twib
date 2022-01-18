@@ -160,7 +160,7 @@
         function imageIsLoaded(e) {
             fabric.Image.fromURL(e.target.result, function(img) {
                 var aspectRatio = 1350 / 1080;
-                var factor = 350 / img.width;
+                var factor = 500 / img.width;
                 img.set({
                     scaleX: factor,
                     scaleY: factor
@@ -174,7 +174,7 @@
                     hasBorders: true,
 
                     rotatingPointOffset: 20,
-                    padding: 150,
+                    padding: 1,
                     transparentCorners: true
                 });
                 canvas.setActiveObject(canvas.item(0));

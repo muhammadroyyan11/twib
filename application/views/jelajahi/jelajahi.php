@@ -12,7 +12,7 @@
 <section>
 <br>
     <div class="container" id="card-lists">
-    <input type="text" name="" id="myInput" onkeyup="myFunction()" placeholder="Cari Twibbon">
+    <input type="text" class="myInput" id="myInput" onkeyup="myFunction()" placeholder="Cari Twibbon">
         <div class="row">
         
             <?php
