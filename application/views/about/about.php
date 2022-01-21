@@ -23,31 +23,31 @@
 
 			</div>
 			<div class="col-lg-6">
-				<div class="">
-					<div class="row">
-						<div class="col-lg-6 col-6">
-							<div class="team_img_item">
-								<img src="<?= base_url() ?>assets/img/team/people/1.png" alt="">
+					<div class="">
+						<div class="row">
+							<div class="col-lg-6 col-12 text-center">
+								<div class="team_img_item">
+									<img src="<?= base_url() ?>assets/img/team/people/1.png" alt="">
+								</div>
 							</div>
-						</div>
-						<div class="col-lg-6 col-6">
-							<div class="team_img_item">
-								<img src="<?= base_url() ?>assets/img/team/people/ojaan.jpg" alt="">
+							<div class="col-lg-6 col-12 text-center">
+								<div class="team_img_item">
+									<img src="<?= base_url() ?>assets/img/team/people/ojaan.jpg" alt="">
+								</div>
 							</div>
-						</div>
-						<div class="col-lg-6 col-6">
-							<div class="team_img_item">
-								<img src="<?= base_url() ?>assets/img/team/people/reca.jpg" alt="">
+							<div class="col-lg-6 col-12 text-center">
+								<div class="team_img_item">
+									<img src="<?= base_url() ?>assets/img/team/people/reca.jpg" alt="">
+								</div>
 							</div>
-						</div>
-						<div class="col-lg-6 col-6">
-							<div class="team_img_item">
-								<img src="<?= base_url() ?>assets/img/team/people/ijul.jpg" alt="">
+							<div class="col-lg-6 col-12 text-center">
+								<div class="team_img_item">
+									<img src="<?= base_url() ?>assets/img/team/people/ijul.jpg" alt="">
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
 		</div>
 	</div>
 </section><br>
