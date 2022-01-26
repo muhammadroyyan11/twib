@@ -64,7 +64,7 @@
 	<link href="<?= base_url() ?>assets/dropzone/dropzone.css" type='text/css' rel='stylesheet'>
 	<script src="<?= base_url() ?>assets/dropzone/dropzone.js" type='text/javascript'></script>
 
-	
+
 </head>
 
 <body>
@@ -72,7 +72,8 @@
 	<!--================Header Menu Area =================-->
 	<header class="main_menu_area">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<b><a class="navbar-brand" href="#">TWIBBONIS</a></b>
+			<!-- <b><a class="navbar-brand" href="#">TWIBBONIS</a></b> -->
+			<a class="navbar-brand" href="#"><img src="<?= base_url()?>assets/img/logo.png" alt=""></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span></span>
 				<span></span>
@@ -165,6 +166,6 @@
 	<script src="<?= base_url() ?>assets/js/theme.js"></script>
 	<script src="<?= base_url() ?>assets/js/card.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	</body>
+</body>
 
 </html>
