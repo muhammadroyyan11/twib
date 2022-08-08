@@ -72,7 +72,7 @@ class Campaign extends CI_Controller
 				'date' => $date,
 				'id_user' => $id_user
 			);
-			var_dump($data);
+			// var_dump($data);
 		} else {
 
 			$gambar = $this->upload->data();
@@ -90,11 +90,11 @@ class Campaign extends CI_Controller
 				'id_user' => $id_user
 			);
 
-			var_dump($data);
-			// $this->base_model->insert('twibbon', $data);
-			// $this->session->set_flashdata('pesan', '<div class="alert alert-success" role="alert"> Data Berhasil Ditambahkan! </div>');
+			// var_dump($data);
+			$this->base_model->insert('twibbon', $data);
+			$this->session->set_flashdata('pesan', '<div class="alert alert-success" role="alert"> Data Berhasil Ditambahkan! </div>');
 
-			// redirect('campaign');
+			redirect('campaign');
 		}
 	}
 
